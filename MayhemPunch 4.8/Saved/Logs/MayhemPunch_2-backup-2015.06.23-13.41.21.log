@@ -1,0 +1,825 @@
+﻿[2015.06.23-10.40.23:550][  0]Log file open, 06/23/15 13:40:23
+[2015.06.23-10.40.23:550][  0]LogInit:Display: Running engine for game: MayhemPunch
+[2015.06.23-10.40.23:550][  0]LogInit:Display: RandInit(-1592901941) SRandInit(-1592901941).
+[2015.06.23-10.40.23:550][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.06.23-10.40.23:550][  0]LogStats: Stats thread started
+[2015.06.23-10.40.23:550][  0]LogInit: Version: 4.8.0-2579680+++depot+UE4-Releases+4.8
+[2015.06.23-10.40.23:550][  0]LogInit: API Version: 2579680
+[2015.06.23-10.40.23:550][  0]LogInit: Compiled (64-bit): Jun  8 2015 03:34:53
+[2015.06.23-10.40.23:550][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.06.23-10.40.23:550][  0]LogInit: Build Configuration: Development
+[2015.06.23-10.40.23:550][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.06.23-10.40.23:550][  0]LogInit: Command line:  /Temp/Autosaves/Game/Main/Maps/UEDPCFirstPersonExampleMap -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess 
+[2015.06.23-10.40.23:550][  0]LogInit: Base directory: C:/Program Files/Unreal Engine/4.8/Engine/Binaries/Win64/
+[2015.06.23-10.40.23:550][  0]LogInit: Rocket: 1
+[2015.06.23-10.40.23:565][  0]LogInit: Using libcurl 7.41.0
+[2015.06.23-10.40.23:565][  0]LogInit:  - built for x86_64-pc-win32
+[2015.06.23-10.40.23:565][  0]LogInit:  - supports SSL with WinSSL
+[2015.06.23-10.40.23:565][  0]LogInit:  - other features:
+[2015.06.23-10.40.23:565][  0]LogInit:      CURL_VERSION_SSL
+[2015.06.23-10.40.23:565][  0]LogInit:      CURL_VERSION_IPV6
+[2015.06.23-10.40.23:565][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.06.23-10.40.23:565][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.06.23-10.40.23:565][  0]LogInit:      CURL_VERSION_IDN
+[2015.06.23-10.40.23:565][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.06.23-10.40.23:565][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.06.23-10.40.23:565][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.06.23-10.40.23:565][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.06.23-10.40.23:565][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.06.23-10.40.23:609][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.06.23-10.40.23:623][  0]LogVoice:Warning: Failed to initialize voice interface
+[2015.06.23-10.40.23:635][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.06.23-10.40.23:642][  0]LogInit: Object subsystem initialized
+[2015.06.23-10.40.23:643][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.06.23-10.40.23:643][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/TTV14SRasmusB/Documents/Unreal Projects/MayhemPunch 4.8/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.06.23-10.40.23:643][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.06.23-10.40.23:643][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/TTV14SRasmusB/Documents/Unreal Projects/MayhemPunch 4.8/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.06.23-10.40.23:643][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.06.23-10.40.23:643][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/TTV14SRasmusB/Documents/Unreal Projects/MayhemPunch 4.8/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.06.23-10.40.23:644][  0]LogInit: Selected Device Profile: [Windows]
+[2015.06.23-10.40.23:644][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.06.23-10.40.23:646][  0]LogInit: Computer: TA11LDML-28
+[2015.06.23-10.40.23:646][  0]LogInit: User: TTV14SRasmusB
+[2015.06.23-10.40.23:646][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.06.23-10.40.23:646][  0]LogInit: High frequency timer resolution =3.316064 MHz
+[2015.06.23-10.40.23:646][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2015.06.23-10.40.23:646][  0]LogMemory: Platform Memory Stats for Windows
+[2015.06.23-10.40.23:646][  0]LogMemory: Process Physical Memory: 55.18 MB used, 55.18 MB peak
+[2015.06.23-10.40.23:646][  0]LogMemory: Process Virtual Memory: 27.75 MB used, 27.82 MB peak
+[2015.06.23-10.40.23:646][  0]LogMemory: Physical Memory: 5924.38 MB used, 16344.95 MB total
+[2015.06.23-10.40.23:646][  0]LogMemory: Virtual Memory: 293.80 MB used, 8388608.00 MB total
+[2015.06.23-10.40.23:679][  0]LogTextLocalizationManager: The requested culture ('fi_FI') has no localization data; falling back to 'en' for localization and internationalization data.
+[2015.06.23-10.40.23:900][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (C:/Program Files/Unreal Engine/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (C:/Program Files/Unreal Engine/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.06.23-10.40.24:221][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GT 640 (Feature Level 11_0)
+[2015.06.23-10.40.24:221][  0]LogD3D11RHI: Adapter has 971MB of dedicated video memory, 0MB of dedicated system memory, and 3072MB of shared system memory, 2 output[s]
+[2015.06.23-10.40.24:221][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.06.23-10.40.24:225][  0]LogRHI: Texture pool is 680 MB (70% of 971 MB)
+[2015.06.23-10.40.24:233][  0]LogD3D11RHI: Async texture creation enabled
+[2015.06.23-10.40.24:248][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.06.23-10.40.25:038][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.06.23-10.40.25:050][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.06.23-10.40.25:062][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.06.23-10.40.25:074][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.06.23-10.40.25:088][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.06.23-10.40.25:099][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.06.23-10.40.25:109][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.06.23-10.40.25:120][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.06.23-10.40.25:130][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.06.23-10.40.25:141][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.06.23-10.40.25:151][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.06.23-10.40.25:162][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.06.23-10.40.25:205][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.06.23-10.40.25:215][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.06.23-10.40.25:226][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.06.23-10.40.25:238][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.06.23-10.40.25:238][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.06.23-10.40.25:413][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.06.23-10.40.25:455][  0]LogDerivedDataCache: Loaded boot cache 0.04s 53MB C:/Users/TTV14SRasmusB/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.06.23-10.40.25:455][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/TTV14SRasmusB/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.06.23-10.40.25:455][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/TTV14SRasmusB/Documents/Unreal Projects/MayhemPunch 4.8/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.06.23-10.40.25:455][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.06.23-10.40.25:455][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/TTV14SRasmusB/Documents/Unreal Projects/MayhemPunch 4.8/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.06.23-10.40.25:455][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.06.23-10.40.25:603][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.06.23-10.40.25:615][  0]LogDerivedDataCache: Using Local data cache path C:/Users/TTV14SRasmusB/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.06.23-10.40.25:822][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.06.23-10.40.25:822][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.06.23-10.40.25:830][  0]LogInit: Selected Device Profile: [Windows]
+[2015.06.23-10.40.25:853][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.06.23-10.40.25:853][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.06.23-10.40.26:582][  0]LogWindowsMoviePlayer: Unable to load movie: ../../../../../../Users/TTV14SRasmusB/Documents/Unreal Projects/MayhemPunch 4.8/Content/Movies/Default_Startup.mp4
+[2015.06.23-10.40.26:715][  0]SourceControl: Info Source control is disabled
+[2015.06.23-10.40.26:715][  0]SourceControl: Info Source control is disabled
+[2015.06.23-10.40.26:723][  0]SourceControl: Info Source control is disabled
+[2015.06.23-10.40.26:881][  0]LogObj: 25781 objects as part of root set at end of initial load.
+[2015.06.23-10.40.26:881][  0]LogUObjectAllocator: 5195968 out of 0 bytes used by permanent object pool.
+[2015.06.23-10.40.26:941][  0]LogAutomationTest:Warning: ERR: Transient text cannot be serialized "Testing Transient serialization detection".
+[2015.06.23-10.40.26:942][  0]LogEngine: Initializing Engine...
+[2015.06.23-10.40.26:944][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.06.23-10.40.26:945][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
+[2015.06.23-10.40.27:024][  0]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.06.23-10.40.27:030][  0]LogInit: FAudioDevice initialized.
+[2015.06.23-10.40.27:033][  0]LogInit: Texture streaming: Disabled
+[2015.06.23-10.40.27:915][  0]LogNet: Browse: /Temp/Autosaves/Game/Main/Maps/UEDPCFirstPersonExampleMap?Name=Player
+[2015.06.23-10.40.27:916][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/Main/Maps/UEDPCFirstPersonExampleMap?Name=Player
+[2015.06.23-10.40.27:938][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000C59ADE0
+[2015.06.23-10.40.28:032][  0]LogMemory: Platform Memory Stats for Windows
+[2015.06.23-10.40.28:032][  0]LogMemory: Process Physical Memory: 347.05 MB used, 347.06 MB peak
+[2015.06.23-10.40.28:032][  0]LogMemory: Process Virtual Memory: 294.65 MB used, 297.46 MB peak
+[2015.06.23-10.40.28:032][  0]LogMemory: Physical Memory: 6158.68 MB used, 16344.95 MB total
+[2015.06.23-10.40.28:032][  0]LogMemory: Virtual Memory: 793.80 MB used, 8388608.00 MB total
+[2015.06.23-10.40.28:032][  0]LogMemory: 
+[2015.06.23-10.40.28:032][  0]Allocator Stats for TBB: (not implemented)
+[2015.06.23-10.40.28:160][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Audio/Strong_Punch-Mike_Koenig-574430706'
+[2015.06.23-10.40.28:160][  0]LogUObjectGlobals:Warning: Failed to load '/Game/FirstPersonBP/Audio/Strong_Punch-Mike_Koenig-574430706': Can't find file '/Game/FirstPersonBP/Audio/Strong_Punch-Mike_Koenig-574430706'
+[2015.06.23-10.40.28:160][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Audio/Strong_Punch-Mike_Koenig-574430706' while loading NULL.
+[2015.06.23-10.40.28:160][  0]LogUObjectGlobals:Warning: Failed to load '/Game/FirstPersonBP/Audio/Strong_Punch-Mike_Koenig-574430706': Can't find file for asset '/Game/FirstPersonBP/Audio/Strong_Punch-Mike_Koenig-574430706' while loading NULL.
+[2015.06.23-10.40.28:164][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Audio/Strong_Punch-Mike_Koenig-574430706'
+[2015.06.23-10.40.28:164][  0]LoadErrors: Info Failed to load /Game/Blueprints/Pawn/botCharacter.botCharacter_C:ArrowComponent_6 Referenced by EdGraphPin_15423
+[2015.06.23-10.40.28:164][  0]LogUObjectGlobals:Warning: Failed to load '/Game/FirstPersonBP/Audio/Strong_Punch-Mike_Koenig-574430706': Can't find file '/Game/FirstPersonBP/Audio/Strong_Punch-Mike_Koenig-574430706'
+[2015.06.23-10.40.28:164][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Audio/Strong_Punch-Mike_Koenig-574430706' while loading NULL.
+[2015.06.23-10.40.28:164][  0]LoadErrors: Info Failed to load /Game/Blueprints/Pawn/botCharacter.botCharacter_C:ArrowComponent_6 Referenced by EdGraphPin_15423
+[2015.06.23-10.40.28:164][  0]LogUObjectGlobals:Warning: Failed to load '/Game/FirstPersonBP/Audio/Strong_Punch-Mike_Koenig-574430706': Can't find file for asset '/Game/FirstPersonBP/Audio/Strong_Punch-Mike_Koenig-574430706' while loading NULL.
+[2015.06.23-10.40.28:400][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Animations/FirstPersonFists_Idle_Skeleton'
+[2015.06.23-10.40.28:400][  0]LoadErrors: Info Failed to load /Game/Blueprints/Pawn/botCharacter.botCharacter_C:ArrowComponent_6 Referenced by OmaFPAnimBlueprint_C
+[2015.06.23-10.40.28:401][  0]LogUObjectGlobals:Warning: Failed to load '/Game/FirstPersonBP/Animations/FirstPersonFists_Idle_Skeleton': Can't find file '/Game/FirstPersonBP/Animations/FirstPersonFists_Idle_Skeleton'
+[2015.06.23-10.40.28:401][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Animations/FirstPersonFists_Idle_Skeleton' while loading NULL.
+[2015.06.23-10.40.28:401][  0]LoadErrors: Info Failed to load /Game/Blueprints/Pawn/botCharacter.botCharacter_C:ArrowComponent_6 Referenced by OmaFPAnimBlueprint_C
+[2015.06.23-10.40.28:401][  0]LogUObjectGlobals:Warning: Failed to load '/Game/FirstPersonBP/Animations/FirstPersonFists_Idle_Skeleton': Can't find file for asset '/Game/FirstPersonBP/Animations/FirstPersonFists_Idle_Skeleton' while loading NULL.
+[2015.06.23-10.40.28:404][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter'
+[2015.06.23-10.40.28:404][  0]LogUObjectGlobals:Warning: Failed to load '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter': Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter'
+[2015.06.23-10.40.28:404][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter' while loading NULL.
+[2015.06.23-10.40.28:404][  0]LogUObjectGlobals:Warning: Failed to load '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter': Can't find file for asset '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter' while loading NULL.
+[2015.06.23-10.40.28:404][  0]LogLinker:Warning: Can't find file '/Game/PunchingMontage'
+[2015.06.23-10.40.28:404][  0]LogUObjectGlobals:Warning: Failed to load '/Game/PunchingMontage': Can't find file '/Game/PunchingMontage'
+[2015.06.23-10.40.28:404][  0]LogLinker:Warning: Can't find file for asset '/Game/PunchingMontage' while loading NULL.
+[2015.06.23-10.40.28:404][  0]LogUObjectGlobals:Warning: Failed to load '/Game/PunchingMontage': Can't find file for asset '/Game/PunchingMontage' while loading NULL.
+[2015.06.23-10.40.28:405][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Animations/OmaFPJumpEnd_Anim'
+[2015.06.23-10.40.28:405][  0]LogUObjectGlobals:Warning: Failed to load '/Game/FirstPersonBP/Animations/OmaFPJumpEnd_Anim': Can't find file '/Game/FirstPersonBP/Animations/OmaFPJumpEnd_Anim'
+[2015.06.23-10.40.28:405][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Animations/OmaFPJumpEnd_Anim' while loading NULL.
+[2015.06.23-10.40.28:405][  0]LogUObjectGlobals:Warning: Failed to load '/Game/FirstPersonBP/Animations/OmaFPJumpEnd_Anim': Can't find file for asset '/Game/FirstPersonBP/Animations/OmaFPJumpEnd_Anim' while loading NULL.
+[2015.06.23-10.40.28:405][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Animations/OmaFPJumpLoop_Anim'
+[2015.06.23-10.40.28:405][  0]LogUObjectGlobals:Warning: Failed to load '/Game/FirstPersonBP/Animations/OmaFPJumpLoop_Anim': Can't find file '/Game/FirstPersonBP/Animations/OmaFPJumpLoop_Anim'
+[2015.06.23-10.40.28:405][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Animations/OmaFPJumpLoop_Anim' while loading NULL.
+[2015.06.23-10.40.28:405][  0]LogUObjectGlobals:Warning: Failed to load '/Game/FirstPersonBP/Animations/OmaFPJumpLoop_Anim': Can't find file for asset '/Game/FirstPersonBP/Animations/OmaFPJumpLoop_Anim' while loading NULL.
+[2015.06.23-10.40.28:405][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Animations/OmaFPRun_Anim'
+[2015.06.23-10.40.28:405][  0]LogUObjectGlobals:Warning: Failed to load '/Game/FirstPersonBP/Animations/OmaFPRun_Anim': Can't find file '/Game/FirstPersonBP/Animations/OmaFPRun_Anim'
+[2015.06.23-10.40.28:405][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Animations/OmaFPRun_Anim' while loading NULL.
+[2015.06.23-10.40.28:405][  0]LogUObjectGlobals:Warning: Failed to load '/Game/FirstPersonBP/Animations/OmaFPRun_Anim': Can't find file for asset '/Game/FirstPersonBP/Animations/OmaFPRun_Anim' while loading NULL.
+[2015.06.23-10.40.28:405][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter'
+[2015.06.23-10.40.28:405][  0]LogUObjectGlobals:Warning: Failed to load '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter': Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter'
+[2015.06.23-10.40.28:406][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter' while loading NULL.
+[2015.06.23-10.40.28:406][  0]LogUObjectGlobals:Warning: Failed to load '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter': Can't find file for asset '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter' while loading NULL.
+[2015.06.23-10.40.28:406][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter'
+[2015.06.23-10.40.28:406][  0]LogUObjectGlobals:Warning: Failed to load '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter': Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter'
+[2015.06.23-10.40.28:406][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter' while loading NULL.
+[2015.06.23-10.40.28:406][  0]LogUObjectGlobals:Warning: Failed to load '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter': Can't find file for asset '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter' while loading NULL.
+[2015.06.23-10.40.28:406][  0]LogLinker:Warning: CreateImport: Failed to load Outer for resource 'IsPunching': BlueprintGeneratedClass /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C
+[2015.06.23-10.40.28:406][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Animations/FirstPersonFists_Idle_Skeleton'
+[2015.06.23-10.40.28:406][  0]LogUObjectGlobals:Warning: Failed to load '/Game/FirstPersonBP/Animations/FirstPersonFists_Idle_Skeleton': Can't find file '/Game/FirstPersonBP/Animations/FirstPersonFists_Idle_Skeleton'
+[2015.06.23-10.40.28:406][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Animations/FirstPersonFists_Idle_Skeleton' while loading NULL.
+[2015.06.23-10.40.28:406][  0]LogUObjectGlobals:Warning: Failed to load '/Game/FirstPersonBP/Animations/FirstPersonFists_Idle_Skeleton': Can't find file for asset '/Game/FirstPersonBP/Animations/FirstPersonFists_Idle_Skeleton' while loading NULL.
+[2015.06.23-10.40.28:406][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Animations/OmaFPRun_Anim'
+[2015.06.23-10.40.28:406][  0]LogUObjectGlobals:Warning: Failed to load '/Game/FirstPersonBP/Animations/OmaFPRun_Anim': Can't find file '/Game/FirstPersonBP/Animations/OmaFPRun_Anim'
+[2015.06.23-10.40.28:407][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Animations/OmaFPRun_Anim' while loading NULL.
+[2015.06.23-10.40.28:407][  0]LogUObjectGlobals:Warning: Failed to load '/Game/FirstPersonBP/Animations/OmaFPRun_Anim': Can't find file for asset '/Game/FirstPersonBP/Animations/OmaFPRun_Anim' while loading NULL.
+[2015.06.23-10.40.28:407][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Animations/OmaFPJumpEnd_Anim'
+[2015.06.23-10.40.28:407][  0]LogUObjectGlobals:Warning: Failed to load '/Game/FirstPersonBP/Animations/OmaFPJumpEnd_Anim': Can't find file '/Game/FirstPersonBP/Animations/OmaFPJumpEnd_Anim'
+[2015.06.23-10.40.28:407][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Animations/OmaFPJumpEnd_Anim' while loading NULL.
+[2015.06.23-10.40.28:407][  0]LogUObjectGlobals:Warning: Failed to load '/Game/FirstPersonBP/Animations/OmaFPJumpEnd_Anim': Can't find file for asset '/Game/FirstPersonBP/Animations/OmaFPJumpEnd_Anim' while loading NULL.
+[2015.06.23-10.40.28:407][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Animations/OmaFPJumpLoop_Anim'
+[2015.06.23-10.40.28:407][  0]LogUObjectGlobals:Warning: Failed to load '/Game/FirstPersonBP/Animations/OmaFPJumpLoop_Anim': Can't find file '/Game/FirstPersonBP/Animations/OmaFPJumpLoop_Anim'
+[2015.06.23-10.40.28:407][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Animations/OmaFPJumpLoop_Anim' while loading NULL.
+[2015.06.23-10.40.28:407][  0]LogUObjectGlobals:Warning: Failed to load '/Game/FirstPersonBP/Animations/OmaFPJumpLoop_Anim': Can't find file for asset '/Game/FirstPersonBP/Animations/OmaFPJumpLoop_Anim' while loading NULL.
+[2015.06.23-10.40.28:407][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Animations/OmaFPJumpLoop_Anim'
+[2015.06.23-10.40.28:407][  0]LogUObjectGlobals:Warning: Failed to load '/Game/FirstPersonBP/Animations/OmaFPJumpLoop_Anim': Can't find file '/Game/FirstPersonBP/Animations/OmaFPJumpLoop_Anim'
+[2015.06.23-10.40.28:407][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Animations/OmaFPJumpLoop_Anim' while loading NULL.
+[2015.06.23-10.40.28:407][  0]LogUObjectGlobals:Warning: Failed to load '/Game/FirstPersonBP/Animations/OmaFPJumpLoop_Anim': Can't find file for asset '/Game/FirstPersonBP/Animations/OmaFPJumpLoop_Anim' while loading NULL.
+[2015.06.23-10.40.28:407][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Animations/FirstPersonFists_Idle_Skeleton'
+[2015.06.23-10.40.28:408][  0]LoadErrors: Info Failed to load /Game/Blueprints/Pawn/botCharacter.botCharacter_C:ArrowComponent_6 Referenced by OmaFPAnimBlueprint
+[2015.06.23-10.40.28:408][  0]LogUObjectGlobals:Warning: Failed to load '/Game/FirstPersonBP/Animations/FirstPersonFists_Idle_Skeleton': Can't find file '/Game/FirstPersonBP/Animations/FirstPersonFists_Idle_Skeleton'
+[2015.06.23-10.40.28:408][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Animations/FirstPersonFists_Idle_Skeleton' while loading NULL.
+[2015.06.23-10.40.28:408][  0]LoadErrors: Info Failed to load /Game/Blueprints/Pawn/botCharacter.botCharacter_C:ArrowComponent_6 Referenced by OmaFPAnimBlueprint
+[2015.06.23-10.40.28:408][  0]LogUObjectGlobals:Warning: Failed to load '/Game/FirstPersonBP/Animations/FirstPersonFists_Idle_Skeleton': Can't find file for asset '/Game/FirstPersonBP/Animations/FirstPersonFists_Idle_Skeleton' while loading NULL.
+[2015.06.23-10.40.28:412][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter'
+[2015.06.23-10.40.28:412][  0]LoadErrors: Info Failed to load /Game/Blueprints/Pawn/botCharacter.botCharacter_C:ArrowComponent_6 Referenced by K2Node_DynamicCast_884
+[2015.06.23-10.40.28:412][  0]LogUObjectGlobals:Warning: Failed to load '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter': Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter'
+[2015.06.23-10.40.28:412][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter' while loading NULL.
+[2015.06.23-10.40.28:412][  0]LoadErrors: Info Failed to load /Game/Blueprints/Pawn/botCharacter.botCharacter_C:ArrowComponent_6 Referenced by K2Node_DynamicCast_884
+[2015.06.23-10.40.28:412][  0]LogUObjectGlobals:Warning: Failed to load '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter': Can't find file for asset '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter' while loading NULL.
+[2015.06.23-10.40.28:412][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter'
+[2015.06.23-10.40.28:412][  0]LoadErrors: Info Failed to load /Game/Blueprints/Pawn/botCharacter.botCharacter_C:ArrowComponent_6 Referenced by EdGraphPin_6028
+[2015.06.23-10.40.28:412][  0]LogUObjectGlobals:Warning: Failed to load '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter': Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter'
+[2015.06.23-10.40.28:413][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter' while loading NULL.
+[2015.06.23-10.40.28:413][  0]LoadErrors: Info Failed to load /Game/Blueprints/Pawn/botCharacter.botCharacter_C:ArrowComponent_6 Referenced by EdGraphPin_6028
+[2015.06.23-10.40.28:413][  0]LogUObjectGlobals:Warning: Failed to load '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter': Can't find file for asset '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter' while loading NULL.
+[2015.06.23-10.40.28:413][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter'
+[2015.06.23-10.40.28:413][  0]LoadErrors: Info Failed to load /Game/Blueprints/Pawn/botCharacter.botCharacter_C:ArrowComponent_6 Referenced by K2Node_VariableGet_263
+[2015.06.23-10.40.28:413][  0]LogUObjectGlobals:Warning: Failed to load '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter': Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter'
+[2015.06.23-10.40.28:413][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter' while loading NULL.
+[2015.06.23-10.40.28:413][  0]LoadErrors: Info Failed to load /Game/Blueprints/Pawn/botCharacter.botCharacter_C:ArrowComponent_6 Referenced by K2Node_VariableGet_263
+[2015.06.23-10.40.28:413][  0]LogUObjectGlobals:Warning: Failed to load '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter': Can't find file for asset '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter' while loading NULL.
+[2015.06.23-10.40.28:413][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter'
+[2015.06.23-10.40.28:413][  0]LoadErrors: Info Failed to load /Game/Blueprints/Pawn/botCharacter.botCharacter_C:ArrowComponent_6 Referenced by EdGraphPin_6043
+[2015.06.23-10.40.28:413][  0]LogUObjectGlobals:Warning: Failed to load '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter': Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter'
+[2015.06.23-10.40.28:414][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter' while loading NULL.
+[2015.06.23-10.40.28:414][  0]LoadErrors: Info Failed to load /Game/Blueprints/Pawn/botCharacter.botCharacter_C:ArrowComponent_6 Referenced by EdGraphPin_6043
+[2015.06.23-10.40.28:414][  0]LogUObjectGlobals:Warning: Failed to load '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter': Can't find file for asset '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter' while loading NULL.
+[2015.06.23-10.40.28:415][  0]LogLinker:Warning: Can't find file '/Game/PunchingMontage'
+[2015.06.23-10.40.28:415][  0]LoadErrors: Info Failed to load /Game/Blueprints/Pawn/botCharacter.botCharacter_C:ArrowComponent_6 Referenced by EdGraphPin_6063
+[2015.06.23-10.40.28:415][  0]LogUObjectGlobals:Warning: Failed to load '/Game/PunchingMontage': Can't find file '/Game/PunchingMontage'
+[2015.06.23-10.40.28:415][  0]LogLinker:Warning: Can't find file for asset '/Game/PunchingMontage' while loading NULL.
+[2015.06.23-10.40.28:415][  0]LoadErrors: Info Failed to load /Game/Blueprints/Pawn/botCharacter.botCharacter_C:ArrowComponent_6 Referenced by EdGraphPin_6063
+[2015.06.23-10.40.28:415][  0]LogUObjectGlobals:Warning: Failed to load '/Game/PunchingMontage': Can't find file for asset '/Game/PunchingMontage' while loading NULL.
+[2015.06.23-10.40.28:416][  0]LogLinker:Warning: Can't find file '/Game/PunchingMontage'
+[2015.06.23-10.40.28:416][  0]LoadErrors: Info Failed to load /Game/Blueprints/Pawn/botCharacter.botCharacter_C:ArrowComponent_6 Referenced by EdGraphPin_6083
+[2015.06.23-10.40.28:416][  0]LogUObjectGlobals:Warning: Failed to load '/Game/PunchingMontage': Can't find file '/Game/PunchingMontage'
+[2015.06.23-10.40.28:416][  0]LogLinker:Warning: Can't find file for asset '/Game/PunchingMontage' while loading NULL.
+[2015.06.23-10.40.28:416][  0]LoadErrors: Info Failed to load /Game/Blueprints/Pawn/botCharacter.botCharacter_C:ArrowComponent_6 Referenced by EdGraphPin_6083
+[2015.06.23-10.40.28:416][  0]LogUObjectGlobals:Warning: Failed to load '/Game/PunchingMontage': Can't find file for asset '/Game/PunchingMontage' while loading NULL.
+[2015.06.23-10.40.28:417][  0]LogLinker:Warning: Can't find file '/Game/PunchingMontage'
+[2015.06.23-10.40.28:417][  0]LoadErrors: Info Failed to load /Game/Blueprints/Pawn/botCharacter.botCharacter_C:ArrowComponent_6 Referenced by EdGraphPin_6101
+[2015.06.23-10.40.28:417][  0]LogUObjectGlobals:Warning: Failed to load '/Game/PunchingMontage': Can't find file '/Game/PunchingMontage'
+[2015.06.23-10.40.28:417][  0]LogLinker:Warning: Can't find file for asset '/Game/PunchingMontage' while loading NULL.
+[2015.06.23-10.40.28:417][  0]LoadErrors: Info Failed to load /Game/Blueprints/Pawn/botCharacter.botCharacter_C:ArrowComponent_6 Referenced by EdGraphPin_6101
+[2015.06.23-10.40.28:417][  0]LogUObjectGlobals:Warning: Failed to load '/Game/PunchingMontage': Can't find file for asset '/Game/PunchingMontage' while loading NULL.
+[2015.06.23-10.40.28:422][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Animations/OmaFPJumpLoop_Anim'
+[2015.06.23-10.40.28:422][  0]LoadErrors: Info Failed to load /Game/Blueprints/Pawn/botCharacter.botCharacter_C:ArrowComponent_6 Referenced by AnimGraphNode_SequencePlayer_51
+[2015.06.23-10.40.28:422][  0]LogUObjectGlobals:Warning: Failed to load '/Game/FirstPersonBP/Animations/OmaFPJumpLoop_Anim': Can't find file '/Game/FirstPersonBP/Animations/OmaFPJumpLoop_Anim'
+[2015.06.23-10.40.28:422][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Animations/OmaFPJumpLoop_Anim' while loading NULL.
+[2015.06.23-10.40.28:422][  0]LoadErrors: Info Failed to load /Game/Blueprints/Pawn/botCharacter.botCharacter_C:ArrowComponent_6 Referenced by AnimGraphNode_SequencePlayer_51
+[2015.06.23-10.40.28:422][  0]LogUObjectGlobals:Warning: Failed to load '/Game/FirstPersonBP/Animations/OmaFPJumpLoop_Anim': Can't find file for asset '/Game/FirstPersonBP/Animations/OmaFPJumpLoop_Anim' while loading NULL.
+[2015.06.23-10.40.28:423][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Animations/OmaFPJumpLoop_Anim'
+[2015.06.23-10.40.28:424][  0]LoadErrors: Info Failed to load /Game/Blueprints/Pawn/botCharacter.botCharacter_C:ArrowComponent_6 Referenced by AnimGraphNode_SequencePlayer_63
+[2015.06.23-10.40.28:424][  0]LogUObjectGlobals:Warning: Failed to load '/Game/FirstPersonBP/Animations/OmaFPJumpLoop_Anim': Can't find file '/Game/FirstPersonBP/Animations/OmaFPJumpLoop_Anim'
+[2015.06.23-10.40.28:424][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Animations/OmaFPJumpLoop_Anim' while loading NULL.
+[2015.06.23-10.40.28:424][  0]LoadErrors: Info Failed to load /Game/Blueprints/Pawn/botCharacter.botCharacter_C:ArrowComponent_6 Referenced by AnimGraphNode_SequencePlayer_63
+[2015.06.23-10.40.28:424][  0]LogUObjectGlobals:Warning: Failed to load '/Game/FirstPersonBP/Animations/OmaFPJumpLoop_Anim': Can't find file for asset '/Game/FirstPersonBP/Animations/OmaFPJumpLoop_Anim' while loading NULL.
+[2015.06.23-10.40.28:425][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Animations/OmaFPJumpEnd_Anim'
+[2015.06.23-10.40.28:425][  0]LoadErrors: Info Failed to load /Game/Blueprints/Pawn/botCharacter.botCharacter_C:ArrowComponent_6 Referenced by AnimGraphNode_SequencePlayer_69
+[2015.06.23-10.40.28:425][  0]LogUObjectGlobals:Warning: Failed to load '/Game/FirstPersonBP/Animations/OmaFPJumpEnd_Anim': Can't find file '/Game/FirstPersonBP/Animations/OmaFPJumpEnd_Anim'
+[2015.06.23-10.40.28:425][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Animations/OmaFPJumpEnd_Anim' while loading NULL.
+[2015.06.23-10.40.28:425][  0]LoadErrors: Info Failed to load /Game/Blueprints/Pawn/botCharacter.botCharacter_C:ArrowComponent_6 Referenced by AnimGraphNode_SequencePlayer_69
+[2015.06.23-10.40.28:425][  0]LogUObjectGlobals:Warning: Failed to load '/Game/FirstPersonBP/Animations/OmaFPJumpEnd_Anim': Can't find file for asset '/Game/FirstPersonBP/Animations/OmaFPJumpEnd_Anim' while loading NULL.
+[2015.06.23-10.40.28:427][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Animations/OmaFPRun_Anim'
+[2015.06.23-10.40.28:427][  0]LoadErrors: Info Failed to load /Game/Blueprints/Pawn/botCharacter.botCharacter_C:ArrowComponent_6 Referenced by AnimGraphNode_SequencePlayer_58
+[2015.06.23-10.40.28:427][  0]LogUObjectGlobals:Warning: Failed to load '/Game/FirstPersonBP/Animations/OmaFPRun_Anim': Can't find file '/Game/FirstPersonBP/Animations/OmaFPRun_Anim'
+[2015.06.23-10.40.28:427][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Animations/OmaFPRun_Anim' while loading NULL.
+[2015.06.23-10.40.28:427][  0]LoadErrors: Info Failed to load /Game/Blueprints/Pawn/botCharacter.botCharacter_C:ArrowComponent_6 Referenced by AnimGraphNode_SequencePlayer_58
+[2015.06.23-10.40.28:427][  0]LogUObjectGlobals:Warning: Failed to load '/Game/FirstPersonBP/Animations/OmaFPRun_Anim': Can't find file for asset '/Game/FirstPersonBP/Animations/OmaFPRun_Anim' while loading NULL.
+[2015.06.23-10.40.28:462][  0]LogBlueprint:Warning: [OmaFPAnimBlueprint] CreatePinForVariable: 'IsPunching' variable not found. Base class was probably changed.
+[2015.06.23-10.40.28:491][  0]LogBlueprint:Error: [compiler OmaFPAnimBlueprint] Error  Play FPFistsIdleProto_Anim  references sequence that uses different skeleton  FirstPersonFists_Idle_Skeleton 
+[2015.06.23-10.40.28:492][  0]LogBlueprint:Error: [compiler OmaFPAnimBlueprint] Error  Play (None)  references an unknown sequence
+[2015.06.23-10.40.28:492][  0]LogBlueprint:Error: [compiler OmaFPAnimBlueprint] Error  Play (None)  references an unknown sequence
+[2015.06.23-10.40.28:492][  0]LogBlueprint:Error: [compiler OmaFPAnimBlueprint] Error  Play (None)  references an unknown sequence
+[2015.06.23-10.40.28:492][  0]LogBlueprint:Error: [compiler OmaFPAnimBlueprint] Error  Play (None)  references an unknown sequence
+[2015.06.23-10.40.28:493][  0]LogBlueprint:Error: [compiler OmaFPAnimBlueprint] Error ICE: Player node  Play (None)  was not processed prior to handling a transition getter  K2Node_TransitionRuleGetter  that used it
+[2015.06.23-10.40.28:494][  0]LogBlueprint:Error: [compiler OmaFPAnimBlueprint] Error ICE: Player node  Play (None)  was not processed prior to handling a transition getter  K2Node_TransitionRuleGetter  that used it
+[2015.06.23-10.40.28:497][  0]LogBlueprint:Warning: [compiler OmaFPAnimBlueprint] Warning Could not find a variable named "IsPunching" in 'OmaFPAnimBlueprint'.
+Make sure 'OmaFPAnimBlueprint' has been compiled for  Get IsPunching 
+[2015.06.23-10.40.28:497][  0]LogBlueprint:Warning: [compiler OmaFPAnimBlueprint] Warning Can't connect pins  Object  and  ReturnValue : This cast has an invalid target type (was the class deleted without a redirect?).
+[2015.06.23-10.40.28:497][  0]LogBlueprint:Warning: [compiler OmaFPAnimBlueprint] Warning Can't connect pins  ReturnValue  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2015.06.23-10.40.28:499][  0]LogBlueprint:Error: [compiler OmaFPAnimBlueprint] Error This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
+[2015.06.23-10.40.28:499][  0]LogBlueprint:Error: [compiler OmaFPAnimBlueprint] Error The property associated with  IsPunching  could not be found
+[2015.06.23-10.40.28:517][  0]LogBlueprint:Warning: [compiler OmaFPAnimBlueprint] Warning [0006.40] Compile of OmaFPAnimBlueprint failed. 9 Fatal Issue(s) 3 Warning(s) [in 48 ms]
+[2015.06.23-10.40.28:518][  0]LogBlueprint:Warning: [compiler OmaFPAnimBlueprint] Warning [0006.40] Compile of OmaFPAnimBlueprint failed. 9 Fatal Issue(s) 4 Warning(s) [in 0 ms]
+[2015.06.23-10.40.28:518][  0]LogBlueprint:Warning: [compiler OmaFPAnimBlueprint] Warning [0006.40] Compile of OmaFPAnimBlueprint failed. 9 Fatal Issue(s) 5 Warning(s) [in 0 ms]
+[2015.06.23-10.40.31:448][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.06.23-10.40.31:448][  0]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.06.23-10.40.31:495][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.31:495][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.31:495][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.31:495][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.31:496][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.31:496][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.31:496][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.31:496][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.31:496][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.31:497][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.31:497][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.31:497][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.31:497][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.31:497][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.31:497][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.31:497][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.31:497][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.31:497][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.31:497][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.31:497][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.31:497][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.31:497][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.31:498][  0]LogPhysics:Warning: MoveFixedBody: Trying to move component'/Temp/Autosaves/Game/Main/Maps/UEDPCFirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.KiviCollision.StaticMeshComponent0' with a non-Movable Mobility.
+[2015.06.23-10.40.31:498][  0]LogWorld: Bringing World /Temp/Autosaves/Game/Main/Maps/UEDPCFirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.06.23-13.40.31
+[2015.06.23-10.40.31:499][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.31:499][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.31:499][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.31:499][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.31:499][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.31:499][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.31:517][  0]LogWorld: Bringing up level for play took: 0.066922
+[2015.06.23-10.40.31:518][  0]LogOnline:Warning: NULL: Can't start an online game for session (Game) that hasn't been created
+[2015.06.23-10.40.31:518][  0]LogInit:Display: Game Engine Initialized.
+[2015.06.23-10.40.31:768][  0]LogAssetRegistry: FAssetRegistry took 0.0002 seconds to start up
+[2015.06.23-10.40.31:768][  0]LogLoad: Full Startup: 9.65 seconds (BP compile: 1.68 seconds)
+[2015.06.23-10.40.31:796][  0]LogContentStreaming: Texture pool size is 400.000000MB
+[2015.06.23-10.40.31:965][  2]LogRenderer: Reallocating scene render targets to support 912x512 (Frame:2).
+[2015.06.23-10.40.32:038][  2]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:038][  2]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:054][  3]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:054][  3]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:070][  4]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:070][  4]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:087][  5]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:087][  5]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:102][  6]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:102][  6]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:118][  7]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:118][  7]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:135][  8]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:135][  8]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:151][  9]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:151][  9]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:167][ 10]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:167][ 10]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:183][ 11]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:183][ 11]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:199][ 12]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:199][ 12]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:215][ 13]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:215][ 13]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:231][ 14]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:231][ 14]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:247][ 15]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:247][ 15]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:263][ 16]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:263][ 16]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:280][ 17]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:280][ 17]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:296][ 18]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:296][ 18]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:312][ 19]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:312][ 19]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:328][ 20]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:328][ 20]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:344][ 21]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:344][ 21]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:360][ 22]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:360][ 22]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:376][ 23]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:376][ 23]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:393][ 24]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:393][ 24]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:409][ 25]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:409][ 25]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:425][ 26]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:425][ 26]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:441][ 27]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:441][ 27]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:457][ 28]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:457][ 28]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:473][ 29]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:473][ 29]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:489][ 30]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:489][ 30]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:505][ 31]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:505][ 31]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:522][ 32]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:522][ 32]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:538][ 33]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:538][ 33]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:554][ 34]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:554][ 34]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:570][ 35]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:570][ 35]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:586][ 36]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:586][ 36]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:602][ 37]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:602][ 37]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:618][ 38]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:618][ 38]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:635][ 39]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:635][ 39]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:651][ 40]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:651][ 40]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:667][ 41]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:667][ 41]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:683][ 42]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:683][ 42]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:699][ 43]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:699][ 43]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:715][ 44]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:715][ 44]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:731][ 45]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:731][ 45]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:747][ 46]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:747][ 46]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:764][ 47]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:764][ 47]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:780][ 48]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:780][ 48]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:796][ 49]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:796][ 49]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:812][ 50]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:812][ 50]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:828][ 51]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:828][ 51]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:844][ 52]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:844][ 52]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:860][ 53]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:860][ 53]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:876][ 54]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:876][ 54]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:893][ 55]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:893][ 55]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:909][ 56]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:909][ 56]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:925][ 57]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:925][ 57]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:941][ 58]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:941][ 58]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:957][ 59]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:957][ 59]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:973][ 60]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:973][ 60]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:989][ 61]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.32:989][ 61]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:005][ 62]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:005][ 62]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:022][ 63]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:022][ 63]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:038][ 64]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:038][ 64]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:054][ 65]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:054][ 65]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:070][ 66]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:070][ 66]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:086][ 67]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:086][ 67]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:102][ 68]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:102][ 68]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:118][ 69]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:118][ 69]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:134][ 70]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:134][ 70]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:150][ 71]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:150][ 71]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:167][ 72]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:167][ 72]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:183][ 73]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:183][ 73]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:184][ 73]PIE:Warning: Warning FirstPersonCharacter_294.Mesh2P SK_Mannequin_Arms has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2015.06.23-10.40.33:199][ 74]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:199][ 74]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:215][ 75]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:215][ 75]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:231][ 76]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:231][ 76]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:247][ 77]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:247][ 77]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:264][ 78]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:264][ 78]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:280][ 79]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:280][ 79]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:296][ 80]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:296][ 80]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:312][ 81]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:312][ 81]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:328][ 82]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:328][ 82]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:344][ 83]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:344][ 83]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:360][ 84]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:360][ 84]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:376][ 85]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:376][ 85]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:393][ 86]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:393][ 86]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:409][ 87]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:409][ 87]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:425][ 88]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:425][ 88]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:441][ 89]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:441][ 89]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:457][ 90]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:457][ 90]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:473][ 91]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:473][ 91]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:489][ 92]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:489][ 92]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:505][ 93]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:505][ 93]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:522][ 94]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:522][ 94]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:538][ 95]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:538][ 95]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:554][ 96]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:554][ 96]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:570][ 97]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:570][ 97]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:586][ 98]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:586][ 98]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:602][ 99]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:602][ 99]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:618][100]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:618][100]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:635][101]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:635][101]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:651][102]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:651][102]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:667][103]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:667][103]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:683][104]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:683][104]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:699][105]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:699][105]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:715][106]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:715][106]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:731][107]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:731][107]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:747][108]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:747][108]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:763][109]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:764][109]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:780][110]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:780][110]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:796][111]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:796][111]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:812][112]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:812][112]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:828][113]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:828][113]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:844][114]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:844][114]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:860][115]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:860][115]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:876][116]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:876][116]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:893][117]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:893][117]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:909][118]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:909][118]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:925][119]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:925][119]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:941][120]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:941][120]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:957][121]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:957][121]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:973][122]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:973][122]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:989][123]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.33:989][123]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:006][124]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:006][124]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:022][125]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:022][125]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:038][126]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:038][126]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:054][127]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:054][127]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:070][128]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:070][128]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:086][129]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:086][129]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:102][130]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:102][130]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:118][131]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:118][131]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:134][132]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:134][132]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:150][133]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:150][133]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:167][134]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:167][134]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:183][135]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:183][135]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:199][136]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:199][136]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:215][137]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:215][137]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:231][138]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:231][138]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:247][139]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:247][139]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:263][140]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:263][140]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:280][141]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:280][141]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:296][142]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:296][142]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:312][143]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:312][143]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:328][144]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:328][144]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:344][145]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:344][145]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:360][146]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:360][146]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:376][147]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:376][147]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:392][148]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:392][148]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:409][149]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:409][149]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:425][150]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:425][150]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:441][151]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:441][151]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:457][152]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:457][152]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:473][153]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:473][153]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:489][154]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:489][154]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:505][155]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:505][155]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:521][156]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:521][156]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:537][157]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:538][157]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:554][158]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:554][158]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:570][159]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:570][159]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:586][160]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:586][160]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:602][161]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:602][161]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:618][162]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:618][162]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:634][163]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:634][163]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:650][164]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:650][164]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:667][165]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:667][165]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:683][166]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:683][166]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:699][167]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:699][167]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:715][168]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:715][168]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:731][169]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:731][169]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:747][170]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:747][170]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:763][171]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:763][171]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:779][172]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:779][172]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:795][173]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:796][173]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:812][174]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:812][174]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:828][175]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:828][175]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:844][176]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:844][176]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:860][177]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:860][177]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:876][178]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:876][178]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:892][179]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:892][179]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:908][180]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:908][180]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:925][181]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:925][181]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:941][182]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:941][182]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:957][183]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:957][183]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:973][184]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:973][184]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:989][185]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.34:989][185]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.35:006][186]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.35:006][186]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.35:022][187]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.35:022][187]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.35:038][188]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.35:038][188]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.35:054][189]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.35:054][189]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.35:070][190]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.35:070][190]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.35:086][191]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.35:086][191]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.35:102][192]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.35:102][192]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.35:118][193]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.35:118][193]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.35:134][194]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.35:134][194]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.35:151][195]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.35:151][195]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.35:167][196]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.35:167][196]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.35:183][197]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.35:183][197]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.35:199][198]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.35:199][198]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.35:215][199]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.35:215][199]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.35:231][200]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.35:231][200]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.35:247][201]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.35:247][201]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.40.35:290][202]LogEngine: All Windows Closed
+[2015.06.23-10.40.35:290][202]LogWindows: FPlatformMisc::RequestExit(0)
+[2015.06.23-10.40.35:948][203]LogExit: Preparing to exit.
+[2015.06.23-10.40.36:042][203]LogExit: Game engine shut down
+[2015.06.23-10.40.36:045][203]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000020745580
+[2015.06.23-10.40.36:180][203]LogExit: Object subsystem successfully closed.
+[2015.06.23-10.40.36:385][203]LogModuleManager: Shutting down and abandoning module AssetRegistry (109)
+[2015.06.23-10.40.36:385][203]LogModuleManager: Shutting down and abandoning module AutomationWorker (108)
+[2015.06.23-10.40.36:385][203]LogModuleManager: Shutting down and abandoning module CharacterAI (107)
+[2015.06.23-10.40.36:385][203]LogModuleManager: Shutting down and abandoning module AITestSuite (106)
+[2015.06.23-10.40.36:385][203]LogModuleManager: Shutting down and abandoning module GameplayDebugger (105)
+[2015.06.23-10.40.36:385][203]LogModuleManager: Shutting down and abandoning module AIModule (104)
+[2015.06.23-10.40.36:386][203]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (103)
+[2015.06.23-10.40.36:386][203]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (102)
+[2015.06.23-10.40.36:386][203]LogModuleManager: Shutting down and abandoning module ProfilerService (101)
+[2015.06.23-10.40.36:406][203]LogModuleManager: Shutting down and abandoning module TaskGraph (100)
+[2015.06.23-10.40.36:406][203]LogModuleManager: Shutting down and abandoning module SlateRemote (99)
+[2015.06.23-10.40.36:406][203]LogModuleManager: Shutting down and abandoning module SteamVRController (98)
+[2015.06.23-10.40.36:406][203]LogModuleManager: Shutting down and abandoning module SteamVR (97)
+[2015.06.23-10.40.36:406][203]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (96)
+[2015.06.23-10.40.36:406][203]LogModuleManager: Shutting down and abandoning module OculusRift (95)
+[2015.06.23-10.40.36:406][203]LogModuleManager: Shutting down and abandoning module LeapMotionController (94)
+[2015.06.23-10.40.36:412][203]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (93)
+[2015.06.23-10.40.36:412][203]LogModuleManager: Shutting down and abandoning module CableComponent (92)
+[2015.06.23-10.40.36:412][203]LogModuleManager: Shutting down and abandoning module DesktopPlatform (91)
+[2015.06.23-10.40.36:412][203]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2015.06.23-10.40.36:412][203]LogModuleManager: Shutting down and abandoning module HotReload (89)
+[2015.06.23-10.40.36:412][203]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (88)
+[2015.06.23-10.40.36:412][203]LogModuleManager: Shutting down and abandoning module UObjectPlugin (87)
+[2015.06.23-10.40.36:412][203]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (86)
+[2015.06.23-10.40.36:412][203]LogModuleManager: Shutting down and abandoning module SourceControl (85)
+[2015.06.23-10.40.36:412][203]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (84)
+[2015.06.23-10.40.36:412][203]LogModuleManager: Shutting down and abandoning module BlankPlugin (83)
+[2015.06.23-10.40.36:412][203]LogModuleManager: Shutting down and abandoning module UdpMessaging (82)
+[2015.06.23-10.40.36:413][203]LogModuleManager: Shutting down and abandoning module Paper2D (81)
+[2015.06.23-10.40.36:413][203]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (80)
+[2015.06.23-10.40.36:415][203]LogModuleManager: Shutting down and abandoning module Media (79)
+[2015.06.23-10.40.36:415][203]LogModuleManager: Shutting down and abandoning module WmfMedia (78)
+[2015.06.23-10.40.36:416][203]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (77)
+[2015.06.23-10.40.36:416][203]LogModuleManager: Shutting down and abandoning module PropertyEditor (76)
+[2015.06.23-10.40.36:416][203]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (75)
+[2015.06.23-10.40.36:416][203]LogModuleManager: Shutting down and abandoning module FunctionalTesting (74)
+[2015.06.23-10.40.36:416][203]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (73)
+[2015.06.23-10.40.36:416][203]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (72)
+[2015.06.23-10.40.36:416][203]LogModuleManager: Shutting down and abandoning module MessageLog (71)
+[2015.06.23-10.40.36:416][203]LogModuleManager: Shutting down and abandoning module Sequencer (70)
+[2015.06.23-10.40.36:416][203]LogModuleManager: Shutting down and abandoning module AssetTools (69)
+[2015.06.23-10.40.36:416][203]LogModuleManager: Shutting down and abandoning module UMGEditor (68)
+[2015.06.23-10.40.36:416][203]LogModuleManager: Shutting down and abandoning module UMG (67)
+[2015.06.23-10.40.36:416][203]LogModuleManager: Shutting down and abandoning module Slate (66)
+[2015.06.23-10.40.36:416][203]LogModuleManager: Shutting down and abandoning module EditorStyle (65)
+[2015.06.23-10.40.36:417][203]LogModuleManager: Shutting down and abandoning module SessionServices (64)
+[2015.06.23-10.40.36:417][203]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (63)
+[2015.06.23-10.40.36:417][203]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (62)
+[2015.06.23-10.40.36:417][203]LogModuleManager: Shutting down and abandoning module XAudio2 (61)
+[2015.06.23-10.40.36:418][203]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2015.06.23-10.40.36:418][203]LogModuleManager: Shutting down and abandoning module Core (59)
+[2015.06.23-10.40.36:418][203]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2015.06.23-10.40.36:418][203]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2015.06.23-10.40.36:418][203]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2015.06.23-10.40.36:418][203]LogModuleManager: Shutting down and abandoning module DerivedDataCache (55)
+[2015.06.23-10.40.36:605][203]LogDerivedDataCache: Shutdown
+[2015.06.23-10.40.36:605][203]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (54)
+[2015.06.23-10.40.36:605][203]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (53)
+[2015.06.23-10.40.36:605][203]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (52)
+[2015.06.23-10.40.36:605][203]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (51)
+[2015.06.23-10.40.36:605][203]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (50)
+[2015.06.23-10.40.36:605][203]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (49)
+[2015.06.23-10.40.36:605][203]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (48)
+[2015.06.23-10.40.36:605][203]LogModuleManager: Shutting down and abandoning module ImageWrapper (47)
+[2015.06.23-10.40.36:605][203]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (46)
+[2015.06.23-10.40.36:605][203]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (45)
+[2015.06.23-10.40.36:605][203]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (44)
+[2015.06.23-10.40.36:605][203]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (43)
+[2015.06.23-10.40.36:605][203]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (42)
+[2015.06.23-10.40.36:605][203]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (41)
+[2015.06.23-10.40.36:605][203]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (40)
+[2015.06.23-10.40.36:605][203]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (39)
+[2015.06.23-10.40.36:605][203]LogModuleManager: Shutting down and abandoning module Messaging (38)
+[2015.06.23-10.40.36:605][203]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (37)
+[2015.06.23-10.40.36:605][203]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (36)
+[2015.06.23-10.40.36:605][203]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (35)
+[2015.06.23-10.40.36:605][203]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2015.06.23-10.40.36:605][203]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2015.06.23-10.40.36:605][203]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2015.06.23-10.40.36:605][203]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2015.06.23-10.40.36:605][203]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2015.06.23-10.40.36:605][203]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2015.06.23-10.40.36:605][203]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2015.06.23-10.40.36:605][203]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2015.06.23-10.40.36:605][203]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2015.06.23-10.40.36:605][203]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2015.06.23-10.40.36:605][203]LogModuleManager: Shutting down and abandoning module DesktopTargetPlatform (24)
+[2015.06.23-10.40.36:605][203]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2015.06.23-10.40.36:605][203]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2015.06.23-10.40.36:605][203]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2015.06.23-10.40.36:605][203]LogModuleManager: Shutting down and abandoning module Voice (19)
+[2015.06.23-10.40.36:605][203]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.06.23-10.40.36:605][203]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2015.06.23-10.40.36:605][203]LogOnline:Display: Unloading online subsystem: Null
+[2015.06.23-10.40.36:605][203]LogModuleManager: Shutting down and abandoning module HTTP (15)
+[2015.06.23-10.40.36:605][203]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.06.23-10.40.36:605][203]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.06.23-10.40.36:605][203]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.06.23-10.40.36:605][203]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.06.23-10.40.36:605][203]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.06.23-10.40.36:605][203]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.06.23-10.40.36:605][203]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.06.23-10.40.36:605][203]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.06.23-10.40.36:605][203]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.06.23-10.40.36:605][203]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.06.23-10.40.36:605][203]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.06.23-10.40.36:605][203]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.06.23-10.40.36:605][203]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.06.23-10.40.36:605][203]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.06.23-10.40.36:606][203]LogExit: Exiting.
+[2015.06.23-10.40.36:607][203]Log file closed, 06/23/15 13:40:36

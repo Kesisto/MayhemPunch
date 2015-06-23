@@ -1,0 +1,629 @@
+﻿[2015.06.23-06.18.55:740][  0]Log file open, 06/23/15 09:18:55
+[2015.06.23-06.18.55:740][  0]LogInit:Display: Running engine for game: MayhemPunch
+[2015.06.23-06.18.55:740][  0]LogInit:Display: RandInit(-659921814) SRandInit(-659921813).
+[2015.06.23-06.18.55:740][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.06.23-06.18.55:740][  0]LogStats: Stats thread started
+[2015.06.23-06.18.55:740][  0]LogInit: Version: 4.8.0-2579680+++depot+UE4-Releases+4.8
+[2015.06.23-06.18.55:740][  0]LogInit: API Version: 2579680
+[2015.06.23-06.18.55:740][  0]LogInit: Compiled (64-bit): Jun  8 2015 03:34:53
+[2015.06.23-06.18.55:740][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.06.23-06.18.55:740][  0]LogInit: Build Configuration: Development
+[2015.06.23-06.18.55:740][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.06.23-06.18.55:740][  0]LogInit: Command line: 
+[2015.06.23-06.18.55:740][  0]LogInit: Base directory: C:/Program Files/Unreal Engine/4.8/Engine/Binaries/Win64/
+[2015.06.23-06.18.55:740][  0]LogInit: Rocket: 1
+[2015.06.23-06.18.55:753][  0]LogInit: Using libcurl 7.41.0
+[2015.06.23-06.18.55:753][  0]LogInit:  - built for x86_64-pc-win32
+[2015.06.23-06.18.55:753][  0]LogInit:  - supports SSL with WinSSL
+[2015.06.23-06.18.55:753][  0]LogInit:  - other features:
+[2015.06.23-06.18.55:753][  0]LogInit:      CURL_VERSION_SSL
+[2015.06.23-06.18.55:753][  0]LogInit:      CURL_VERSION_IPV6
+[2015.06.23-06.18.55:753][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.06.23-06.18.55:753][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.06.23-06.18.55:753][  0]LogInit:      CURL_VERSION_IDN
+[2015.06.23-06.18.55:753][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.06.23-06.18.55:753][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.06.23-06.18.55:753][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.06.23-06.18.55:753][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.06.23-06.18.55:753][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.06.23-06.18.55:764][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.06.23-06.18.55:776][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.06.23-06.18.55:783][  0]LogInit: Object subsystem initialized
+[2015.06.23-06.18.55:784][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.06.23-06.18.55:784][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.06.23-06.18.55:784][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.06.23-06.18.55:784][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.06.23-06.18.55:784][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.06.23-06.18.55:784][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.06.23-06.18.55:785][  0]LogInit: Selected Device Profile: [Windows]
+[2015.06.23-06.18.55:785][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.06.23-06.18.56:099][  0]LogInit: Computer: TA11LDML-29
+[2015.06.23-06.18.56:099][  0]LogInit: User: TTV14SVilleK
+[2015.06.23-06.18.56:099][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.06.23-06.18.56:099][  0]LogInit: High frequency timer resolution =3.316113 MHz
+[2015.06.23-06.18.56:099][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2015.06.23-06.18.56:100][  0]LogMemory: Platform Memory Stats for Windows
+[2015.06.23-06.18.56:100][  0]LogMemory: Process Physical Memory: 50.84 MB used, 50.84 MB peak
+[2015.06.23-06.18.56:100][  0]LogMemory: Process Virtual Memory: 24.51 MB used, 24.51 MB peak
+[2015.06.23-06.18.56:100][  0]LogMemory: Physical Memory: 5420.18 MB used, 16344.95 MB total
+[2015.06.23-06.18.56:100][  0]LogMemory: Virtual Memory: 282.79 MB used, 8388608.00 MB total
+[2015.06.23-06.18.56:145][  0]LogTextLocalizationManager: The requested culture ('fi_FI') has no localization data; falling back to 'en' for localization and internationalization data.
+[2015.06.23-06.18.56:367][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (C:/Program Files/Unreal Engine/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (C:/Program Files/Unreal Engine/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.06.23-06.18.56:788][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GT 640 (Feature Level 11_0)
+[2015.06.23-06.18.56:788][  0]LogD3D11RHI: Adapter has 971MB of dedicated video memory, 0MB of dedicated system memory, and 3072MB of shared system memory, 2 output[s]
+[2015.06.23-06.18.56:788][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.06.23-06.18.56:791][  0]LogRHI: Texture pool is 680 MB (70% of 971 MB)
+[2015.06.23-06.18.56:798][  0]LogD3D11RHI: Async texture creation enabled
+[2015.06.23-06.18.56:812][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.06.23-06.18.57:609][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.06.23-06.18.57:622][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.06.23-06.18.57:634][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.06.23-06.18.57:646][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.06.23-06.18.57:660][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.06.23-06.18.57:670][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.06.23-06.18.57:681][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.06.23-06.18.57:691][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.06.23-06.18.57:702][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.06.23-06.18.57:714][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.06.23-06.18.57:725][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.06.23-06.18.57:736][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.06.23-06.18.57:780][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.06.23-06.18.57:791][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.06.23-06.18.57:803][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.06.23-06.18.57:816][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.06.23-06.18.57:816][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.06.23-06.18.57:993][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.06.23-06.18.58:052][  0]LogDerivedDataCache: Loaded boot cache 0.06s 53MB C:/Users/TTV14SVilleK/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.06.23-06.18.58:052][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/TTV14SVilleK/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.06.23-06.18.58:052][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.06.23-06.18.58:052][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.06.23-06.18.58:052][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.06.23-06.18.58:052][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.06.23-06.18.58:201][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.06.23-06.18.58:212][  0]LogDerivedDataCache: Using Local data cache path C:/Users/TTV14SVilleK/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.06.23-06.18.58:429][  0]LogInit: Selected Device Profile: [Windows]
+[2015.06.23-06.18.58:437][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.06.23-06.18.58:437][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.06.23-06.18.58:462][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.06.23-06.18.58:462][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.06.23-06.18.58:836][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.06.23-06.18.59:707][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.06.23-06.19.00:038][  0]SourceControl: Info Source control is disabled
+[2015.06.23-06.19.00:039][  0]SourceControl: Info Source control is disabled
+[2015.06.23-06.19.00:048][  0]SourceControl: Info Source control is disabled
+[2015.06.23-06.19.00:056][  0]SourceControl: Info Source control is disabled
+[2015.06.23-06.19.00:256][  0]LogObj: 26273 objects as part of root set at end of initial load.
+[2015.06.23-06.19.00:256][  0]LogUObjectAllocator: 5409248 out of 0 bytes used by permanent object pool.
+[2015.06.23-06.19.00:318][  0]LogEngine: Initializing Engine...
+[2015.06.23-06.19.00:320][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.06.23-06.19.00:322][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
+[2015.06.23-06.19.00:459][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.06.23-06.19.00:463][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.06.23-06.19.00:481][  0]LogInit: FAudioDevice initialized.
+[2015.06.23-06.19.00:508][  0]LogDerivedDataCache: Saved boot cache 0.03s 53MB C:/Users/TTV14SVilleK/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.06.23-06.19.00:511][  0]LogInit: Texture streaming: Disabled
+[2015.06.23-06.19.00:531][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.06.23-06.19.00:531][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.0-2579680+++depot+UE4-Releases+4.8
+[2015.06.23-06.19.00:531][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId d652db00424d2d2668ac20b732403b95|13a6353d6e344fe8a6e53e6676d3b4bf|81e5f6f9-e625-4b87-83f3-869c0c4e9c34
+[2015.06.23-06.19.00:531][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.06.23-06.19.00:558][  0]LogInit: Transaction tracking system initialized
+[2015.06.23-06.19.00:668][  0]BlueprintLog: New page: Editor Load
+[2015.06.23-06.19.00:698][  0]LogAssetRegistry: FAssetRegistry took 0.0102 seconds to start up
+[2015.06.23-06.19.00:698][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.06.23-06.19.01:235][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2015.06.23-06.19.01:235][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2015.06.23-06.19.01:235][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2015.06.23-06.19.01:236][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C'
+[2015.06.23-06.19.01:335][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2015.06.23-06.19.01:335][  0]LogConsoleResponse:Display: 
+[2015.06.23-06.19.01:418][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.06.23-06.19.01:572][  0]SourceControl: Info Source control is disabled
+[2015.06.23-06.19.01:572][  0]Cmd: MAP LOAD FILE="../../../../../../Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/Content/Main/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.06.23-06.19.01:573][  0]LightingResults: New page: Lighting Build
+[2015.06.23-06.19.01:583][  0]MapCheck: New page: Map Check
+[2015.06.23-06.19.01:583][  0]LightingResults: New page: Lighting Build
+[2015.06.23-06.19.01:590][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000161D2F20
+[2015.06.23-06.19.01:815][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Animations/FirstPerson_AnimBP'
+[2015.06.23-06.19.01:815][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Animations/FirstPerson_AnimBP' while loading ../../../../../../Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/Content/Main/Blueprints/FirstPersonCharacter.uasset.
+[2015.06.23-06.19.01:815][  0]LoadErrors:Error: Error /Game/Main/Blueprints/FirstPersonCharacter : Can't find file for asset. /Game/FirstPersonBP/Animations/FirstPerson_AnimBP
+[2015.06.23-06.19.01:922][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Animations/FirstPerson_AnimBP'
+[2015.06.23-06.19.01:922][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Animations/FirstPerson_AnimBP' while loading ../../../../../../Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset.
+[2015.06.23-06.19.01:922][  0]LoadErrors:Error: Error /Game/FirstPersonBP/Blueprints/FirstPersonCharacter : Can't find file for asset. /Game/FirstPersonBP/Animations/FirstPerson_AnimBP
+[2015.06.23-06.19.01:973][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Meshes/FirstPerson_ProjectileMesh'
+[2015.06.23-06.19.01:973][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Meshes/FirstPerson_ProjectileMesh' while loading ../../../../../../Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/Content/FirstPersonBP/Blueprints/Dynamite.uasset.
+[2015.06.23-06.19.01:973][  0]LoadErrors:Error: Error /Game/FirstPersonBP/Blueprints/Dynamite : Can't find file for asset. /Game/FirstPersonBP/Meshes/FirstPerson_ProjectileMesh
+[2015.06.23-06.19.01:992][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Meshes/FirstPerson_ProjectileMesh'
+[2015.06.23-06.19.01:992][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Meshes/FirstPerson_ProjectileMesh' while loading ../../../../../../Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/Content/FirstPersonBP/Blueprints/Dynamite.uasset.
+[2015.06.23-06.19.01:992][  0]LoadErrors:Error: Error /Game/FirstPersonBP/Blueprints/Dynamite : Can't find file for asset. /Game/FirstPersonBP/Meshes/FirstPerson_ProjectileMesh
+[2015.06.23-06.19.01:997][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Meshes/FirstPerson_ProjectileMesh'
+[2015.06.23-06.19.01:997][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Meshes/FirstPerson_ProjectileMesh' while loading ../../../../../../Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset.
+[2015.06.23-06.19.01:998][  0]LoadErrors:Error: Error /Game/FirstPersonBP/Blueprints/FirstPersonCharacter : Can't find file for asset. /Game/FirstPersonBP/Meshes/FirstPerson_ProjectileMesh
+[2015.06.23-06.19.01:998][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Meshes/FirstPerson_ProjectileMesh'
+[2015.06.23-06.19.01:998][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Meshes/FirstPerson_ProjectileMesh' while loading ../../../../../../Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset.
+[2015.06.23-06.19.01:998][  0]LoadErrors:Error: Error /Game/FirstPersonBP/Blueprints/FirstPersonCharacter : Can't find file for asset. /Game/FirstPersonBP/Meshes/FirstPerson_ProjectileMesh
+[2015.06.23-06.19.02:004][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Meshes/FirstPerson_ProjectileMesh'
+[2015.06.23-06.19.02:004][  0]LoadErrors: Info Failed to load /Game/Blueprints/Behavior/botTree.botTree Referenced by StaticMeshComponent_252__1AD2D010
+[2015.06.23-06.19.02:004][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Meshes/FirstPerson_ProjectileMesh' while loading ../../../../../../Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset.
+[2015.06.23-06.19.02:004][  0]LoadErrors: Info Failed to load /Game/Blueprints/Behavior/botTree.botTree Referenced by StaticMeshComponent_252__1AD2D010
+[2015.06.23-06.19.02:004][  0]LoadErrors:Error: Error /Game/FirstPersonBP/Blueprints/FirstPersonCharacter : Can't find file for asset. /Game/FirstPersonBP/Meshes/FirstPerson_ProjectileMesh
+[2015.06.23-06.19.02:052][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode'
+[2015.06.23-06.19.02:052][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode' while loading ../../../../../../Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset.
+[2015.06.23-06.19.02:053][  0]LoadErrors:Error: Error /Game/FirstPersonBP/Blueprints/FirstPersonCharacter : Can't find file for asset. /Game/FirstPersonBP/Blueprints/FirstPersonGameMode
+[2015.06.23-06.19.02:053][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile'
+[2015.06.23-06.19.02:053][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile' while loading ../../../../../../Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset.
+[2015.06.23-06.19.02:053][  0]LoadErrors:Error: Error /Game/FirstPersonBP/Blueprints/FirstPersonCharacter : Can't find file for asset. /Game/FirstPersonBP/Blueprints/FirstPersonProjectile
+[2015.06.23-06.19.02:069][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Audio/Strong_Punch-Mike_Koenig-574430706'
+[2015.06.23-06.19.02:069][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Audio/Strong_Punch-Mike_Koenig-574430706' while loading ../../../../../../Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/Content/FirstPersonBP/Blueprints/GravityHammerImpact.uasset.
+[2015.06.23-06.19.02:069][  0]LoadErrors:Error: Error /Game/FirstPersonBP/Blueprints/GravityHammerImpact : Can't find file for asset. /Game/FirstPersonBP/Audio/Strong_Punch-Mike_Koenig-574430706
+[2015.06.23-06.19.02:070][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Audio/Strong_Punch-Mike_Koenig-574430706'
+[2015.06.23-06.19.02:070][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Audio/Strong_Punch-Mike_Koenig-574430706' while loading ../../../../../../Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/Content/FirstPersonBP/Blueprints/GravityHammerImpact.uasset.
+[2015.06.23-06.19.02:070][  0]LoadErrors:Error: Error /Game/FirstPersonBP/Blueprints/GravityHammerImpact : Can't find file for asset. /Game/FirstPersonBP/Audio/Strong_Punch-Mike_Koenig-574430706
+[2015.06.23-06.19.02:075][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Audio/Strong_Punch-Mike_Koenig-574430706'
+[2015.06.23-06.19.02:075][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Audio/Strong_Punch-Mike_Koenig-574430706' while loading ../../../../../../Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset.
+[2015.06.23-06.19.02:075][  0]LoadErrors:Error: Error /Game/FirstPersonBP/Blueprints/FirstPersonCharacter : Can't find file for asset. /Game/FirstPersonBP/Audio/Strong_Punch-Mike_Koenig-574430706
+[2015.06.23-06.19.02:075][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Audio/Strong_Punch-Mike_Koenig-574430706'
+[2015.06.23-06.19.02:076][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Audio/Strong_Punch-Mike_Koenig-574430706' while loading ../../../../../../Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset.
+[2015.06.23-06.19.02:076][  0]LoadErrors:Error: Error /Game/FirstPersonBP/Blueprints/FirstPersonCharacter : Can't find file for asset. /Game/FirstPersonBP/Audio/Strong_Punch-Mike_Koenig-574430706
+[2015.06.23-06.19.02:078][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Audio/Strong_Punch-Mike_Koenig-574430706'
+[2015.06.23-06.19.02:078][  0]LoadErrors: Info Failed to load /Game/Blueprints/Behavior/botTree.botTree Referenced by EdGraphPin_15423
+[2015.06.23-06.19.02:078][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Audio/Strong_Punch-Mike_Koenig-574430706' while loading ../../../../../../Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset.
+[2015.06.23-06.19.02:078][  0]LoadErrors: Info Failed to load /Game/Blueprints/Behavior/botTree.botTree Referenced by EdGraphPin_15423
+[2015.06.23-06.19.02:078][  0]LoadErrors:Error: Error /Game/FirstPersonBP/Blueprints/FirstPersonCharacter : Can't find file for asset. /Game/FirstPersonBP/Audio/Strong_Punch-Mike_Koenig-574430706
+[2015.06.23-06.19.02:129][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Audio/Strong_Punch-Mike_Koenig-574430706'
+[2015.06.23-06.19.02:129][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Audio/Strong_Punch-Mike_Koenig-574430706' while loading ../../../../../../Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/Content/FirstPersonBP/Blueprints/HitStaticMesh.uasset.
+[2015.06.23-06.19.02:129][  0]LoadErrors:Error: Error /Game/FirstPersonBP/Blueprints/HitStaticMesh : Can't find file for asset. /Game/FirstPersonBP/Audio/Strong_Punch-Mike_Koenig-574430706
+[2015.06.23-06.19.02:129][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Audio/Strong_Punch-Mike_Koenig-574430706'
+[2015.06.23-06.19.02:129][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Audio/Strong_Punch-Mike_Koenig-574430706' while loading ../../../../../../Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/Content/FirstPersonBP/Blueprints/HitStaticMesh.uasset.
+[2015.06.23-06.19.02:130][  0]LoadErrors:Error: Error /Game/FirstPersonBP/Blueprints/HitStaticMesh : Can't find file for asset. /Game/FirstPersonBP/Audio/Strong_Punch-Mike_Koenig-574430706
+[2015.06.23-06.19.02:134][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Audio/Strong_Punch-Mike_Koenig-574430706'
+[2015.06.23-06.19.02:134][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Audio/Strong_Punch-Mike_Koenig-574430706' while loading ../../../../../../Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset.
+[2015.06.23-06.19.02:134][  0]LoadErrors:Error: Error /Game/FirstPersonBP/Blueprints/FirstPersonCharacter : Can't find file for asset. /Game/FirstPersonBP/Audio/Strong_Punch-Mike_Koenig-574430706
+[2015.06.23-06.19.02:134][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Audio/Strong_Punch-Mike_Koenig-574430706'
+[2015.06.23-06.19.02:135][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Audio/Strong_Punch-Mike_Koenig-574430706' while loading ../../../../../../Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset.
+[2015.06.23-06.19.02:135][  0]LoadErrors:Error: Error /Game/FirstPersonBP/Blueprints/FirstPersonCharacter : Can't find file for asset. /Game/FirstPersonBP/Audio/Strong_Punch-Mike_Koenig-574430706
+[2015.06.23-06.19.02:138][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Audio/Strong_Punch-Mike_Koenig-574430706'
+[2015.06.23-06.19.02:138][  0]LoadErrors: Info Failed to load /Game/Blueprints/Behavior/botTree.botTree Referenced by EdGraphPin_15423
+[2015.06.23-06.19.02:138][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Audio/Strong_Punch-Mike_Koenig-574430706' while loading ../../../../../../Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset.
+[2015.06.23-06.19.02:138][  0]LoadErrors: Info Failed to load /Game/Blueprints/Behavior/botTree.botTree Referenced by EdGraphPin_15423
+[2015.06.23-06.19.02:138][  0]LoadErrors:Error: Error /Game/FirstPersonBP/Blueprints/FirstPersonCharacter : Can't find file for asset. /Game/FirstPersonBP/Audio/Strong_Punch-Mike_Koenig-574430706
+[2015.06.23-06.19.02:189][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Animations/FirstPerson_AnimBP'
+[2015.06.23-06.19.02:189][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Animations/FirstPerson_AnimBP' while loading ../../../../../../Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset.
+[2015.06.23-06.19.02:189][  0]LoadErrors:Error: Error /Game/FirstPersonBP/Blueprints/FirstPersonCharacter : Can't find file for asset. /Game/FirstPersonBP/Animations/FirstPerson_AnimBP
+[2015.06.23-06.19.02:189][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Audio/Pitch_Baseball-SoundBible_com-868005975'
+[2015.06.23-06.19.02:189][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Audio/Pitch_Baseball-SoundBible_com-868005975' while loading ../../../../../../Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset.
+[2015.06.23-06.19.02:189][  0]LoadErrors:Error: Error /Game/FirstPersonBP/Blueprints/FirstPersonCharacter : Can't find file for asset. /Game/FirstPersonBP/Audio/Pitch_Baseball-SoundBible_com-868005975
+[2015.06.23-06.19.02:189][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode'
+[2015.06.23-06.19.02:190][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode' while loading ../../../../../../Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset.
+[2015.06.23-06.19.02:190][  0]LoadErrors:Error: Error /Game/FirstPersonBP/Blueprints/FirstPersonCharacter : Can't find file for asset. /Game/FirstPersonBP/Blueprints/FirstPersonGameMode
+[2015.06.23-06.19.02:190][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile'
+[2015.06.23-06.19.02:190][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile' while loading ../../../../../../Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset.
+[2015.06.23-06.19.02:190][  0]LoadErrors:Error: Error /Game/FirstPersonBP/Blueprints/FirstPersonCharacter : Can't find file for asset. /Game/FirstPersonBP/Blueprints/FirstPersonProjectile
+[2015.06.23-06.19.02:226][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Audio/Pitch_Baseball-SoundBible_com-868005975'
+[2015.06.23-06.19.02:226][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Audio/Pitch_Baseball-SoundBible_com-868005975' while loading ../../../../../../Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset.
+[2015.06.23-06.19.02:226][  0]LoadErrors:Error: Error /Game/FirstPersonBP/Blueprints/FirstPersonCharacter : Can't find file for asset. /Game/FirstPersonBP/Audio/Pitch_Baseball-SoundBible_com-868005975
+[2015.06.23-06.19.02:236][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile'
+[2015.06.23-06.19.02:236][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile' while loading ../../../../../../Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/Content/Blueprints/Behavior/BTS_botDetectEnemy.uasset.
+[2015.06.23-06.19.02:236][  0]LoadErrors:Error: Error /Game/Blueprints/Behavior/BTS_botDetectEnemy : Can't find file for asset. /Game/FirstPersonBP/Blueprints/FirstPersonProjectile
+[2015.06.23-06.19.02:236][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Animations/FirstPerson_AnimBP'
+[2015.06.23-06.19.02:236][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Animations/FirstPerson_AnimBP' while loading ../../../../../../Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/Content/Blueprints/Behavior/BTS_botDetectEnemy.uasset.
+[2015.06.23-06.19.02:236][  0]LoadErrors:Error: Error /Game/Blueprints/Behavior/BTS_botDetectEnemy : Can't find file for asset. /Game/FirstPersonBP/Animations/FirstPerson_AnimBP
+[2015.06.23-06.19.02:280][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Animations/FirstPerson_AnimBP'
+[2015.06.23-06.19.02:280][  0]LoadErrors: Info Failed to load /Game/Blueprints/Behavior/botTree.botTree Referenced by SkeletalMeshComponent_8__FC42DFE8
+[2015.06.23-06.19.02:280][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Animations/FirstPerson_AnimBP' while loading ../../../../../../Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/Content/Blueprints/Behavior/BTS_botDetectEnemy.uasset.
+[2015.06.23-06.19.02:280][  0]LoadErrors: Info Failed to load /Game/Blueprints/Behavior/botTree.botTree Referenced by SkeletalMeshComponent_8__FC42DFE8
+[2015.06.23-06.19.02:280][  0]LoadErrors:Error: Error /Game/Blueprints/Behavior/BTS_botDetectEnemy : Can't find file for asset. /Game/FirstPersonBP/Animations/FirstPerson_AnimBP
+[2015.06.23-06.19.02:280][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode'
+[2015.06.23-06.19.02:280][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode' while loading ../../../../../../Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/Content/Blueprints/Behavior/BTS_botDetectEnemy.uasset.
+[2015.06.23-06.19.02:280][  0]LoadErrors:Error: Error /Game/Blueprints/Behavior/BTS_botDetectEnemy : Can't find file for asset. /Game/FirstPersonBP/Blueprints/FirstPersonGameMode
+[2015.06.23-06.19.02:281][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile'
+[2015.06.23-06.19.02:281][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile' while loading ../../../../../../Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/Content/Blueprints/Behavior/BTS_botDetectEnemy.uasset.
+[2015.06.23-06.19.02:281][  0]LoadErrors:Error: Error /Game/Blueprints/Behavior/BTS_botDetectEnemy : Can't find file for asset. /Game/FirstPersonBP/Blueprints/FirstPersonProjectile
+[2015.06.23-06.19.02:281][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Animations/FirstPerson_AnimBP'
+[2015.06.23-06.19.02:281][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Animations/FirstPerson_AnimBP' while loading ../../../../../../Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/Content/Blueprints/Behavior/BTS_botDetectEnemy.uasset.
+[2015.06.23-06.19.02:281][  0]LoadErrors:Error: Error /Game/Blueprints/Behavior/BTS_botDetectEnemy : Can't find file for asset. /Game/FirstPersonBP/Animations/FirstPerson_AnimBP
+[2015.06.23-06.19.02:281][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Audio/Pitch_Baseball-SoundBible_com-868005975'
+[2015.06.23-06.19.02:281][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Audio/Pitch_Baseball-SoundBible_com-868005975' while loading ../../../../../../Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/Content/Blueprints/Behavior/BTS_botDetectEnemy.uasset.
+[2015.06.23-06.19.02:281][  0]LoadErrors:Error: Error /Game/Blueprints/Behavior/BTS_botDetectEnemy : Can't find file for asset. /Game/FirstPersonBP/Audio/Pitch_Baseball-SoundBible_com-868005975
+[2015.06.23-06.19.02:281][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode'
+[2015.06.23-06.19.02:281][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode' while loading ../../../../../../Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/Content/Blueprints/Behavior/BTS_botDetectEnemy.uasset.
+[2015.06.23-06.19.02:281][  0]LoadErrors:Error: Error /Game/Blueprints/Behavior/BTS_botDetectEnemy : Can't find file for asset. /Game/FirstPersonBP/Blueprints/FirstPersonGameMode
+[2015.06.23-06.19.02:282][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile'
+[2015.06.23-06.19.02:282][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile' while loading ../../../../../../Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/Content/Blueprints/Behavior/BTS_botDetectEnemy.uasset.
+[2015.06.23-06.19.02:282][  0]LoadErrors:Error: Error /Game/Blueprints/Behavior/BTS_botDetectEnemy : Can't find file for asset. /Game/FirstPersonBP/Blueprints/FirstPersonProjectile
+[2015.06.23-06.19.02:282][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Audio/Pitch_Baseball-SoundBible_com-868005975'
+[2015.06.23-06.19.02:282][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Audio/Pitch_Baseball-SoundBible_com-868005975' while loading ../../../../../../Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/Content/Blueprints/Behavior/BTS_botDetectEnemy.uasset.
+[2015.06.23-06.19.02:282][  0]LoadErrors:Error: Error /Game/Blueprints/Behavior/BTS_botDetectEnemy : Can't find file for asset. /Game/FirstPersonBP/Audio/Pitch_Baseball-SoundBible_com-868005975
+[2015.06.23-06.19.02:292][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile'
+[2015.06.23-06.19.02:292][  0]LoadErrors: Info Failed to load /Game/Blueprints/Behavior/botTree.botTree Referenced by K2Node_DynamicCast_839
+[2015.06.23-06.19.02:292][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile' while loading ../../../../../../Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/Content/Blueprints/Behavior/BTS_botDetectEnemy.uasset.
+[2015.06.23-06.19.02:292][  0]LoadErrors: Info Failed to load /Game/Blueprints/Behavior/botTree.botTree Referenced by K2Node_DynamicCast_839
+[2015.06.23-06.19.02:292][  0]LoadErrors:Error: Error /Game/Blueprints/Behavior/BTS_botDetectEnemy : Can't find file for asset. /Game/FirstPersonBP/Blueprints/FirstPersonProjectile
+[2015.06.23-06.19.02:292][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile'
+[2015.06.23-06.19.02:292][  0]LoadErrors: Info Failed to load /Game/Blueprints/Behavior/botTree.botTree Referenced by EdGraphPin_16562
+[2015.06.23-06.19.02:293][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile' while loading ../../../../../../Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/Content/Blueprints/Behavior/BTS_botDetectEnemy.uasset.
+[2015.06.23-06.19.02:293][  0]LoadErrors: Info Failed to load /Game/Blueprints/Behavior/botTree.botTree Referenced by EdGraphPin_16562
+[2015.06.23-06.19.02:293][  0]LoadErrors:Error: Error /Game/Blueprints/Behavior/BTS_botDetectEnemy : Can't find file for asset. /Game/FirstPersonBP/Blueprints/FirstPersonProjectile
+[2015.06.23-06.19.02:293][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Audio/Pitch_Baseball-SoundBible_com-868005975'
+[2015.06.23-06.19.02:293][  0]LoadErrors: Info Failed to load /Game/Blueprints/Behavior/botTree.botTree Referenced by EdGraphPin_16655
+[2015.06.23-06.19.02:294][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Audio/Pitch_Baseball-SoundBible_com-868005975' while loading ../../../../../../Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/Content/Blueprints/Behavior/BTS_botDetectEnemy.uasset.
+[2015.06.23-06.19.02:294][  0]LoadErrors: Info Failed to load /Game/Blueprints/Behavior/botTree.botTree Referenced by EdGraphPin_16655
+[2015.06.23-06.19.02:294][  0]LoadErrors:Error: Error /Game/Blueprints/Behavior/BTS_botDetectEnemy : Can't find file for asset. /Game/FirstPersonBP/Audio/Pitch_Baseball-SoundBible_com-868005975
+[2015.06.23-06.19.02:294][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode'
+[2015.06.23-06.19.02:294][  0]LoadErrors: Info Failed to load /Game/Blueprints/Behavior/botTree.botTree Referenced by K2Node_DynamicCast_623
+[2015.06.23-06.19.02:294][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode' while loading ../../../../../../Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/Content/Blueprints/Behavior/BTS_botDetectEnemy.uasset.
+[2015.06.23-06.19.02:294][  0]LoadErrors: Info Failed to load /Game/Blueprints/Behavior/botTree.botTree Referenced by K2Node_DynamicCast_623
+[2015.06.23-06.19.02:294][  0]LoadErrors:Error: Error /Game/Blueprints/Behavior/BTS_botDetectEnemy : Can't find file for asset. /Game/FirstPersonBP/Blueprints/FirstPersonGameMode
+[2015.06.23-06.19.02:294][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode'
+[2015.06.23-06.19.02:294][  0]LoadErrors: Info Failed to load /Game/Blueprints/Behavior/botTree.botTree Referenced by EdGraphPin_16685
+[2015.06.23-06.19.02:294][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode' while loading ../../../../../../Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/Content/Blueprints/Behavior/BTS_botDetectEnemy.uasset.
+[2015.06.23-06.19.02:295][  0]LoadErrors: Info Failed to load /Game/Blueprints/Behavior/botTree.botTree Referenced by EdGraphPin_16685
+[2015.06.23-06.19.02:295][  0]LoadErrors:Error: Error /Game/Blueprints/Behavior/BTS_botDetectEnemy : Can't find file for asset. /Game/FirstPersonBP/Blueprints/FirstPersonGameMode
+[2015.06.23-06.19.02:295][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode'
+[2015.06.23-06.19.02:295][  0]LoadErrors: Info Failed to load /Game/Blueprints/Behavior/botTree.botTree Referenced by K2Node_VariableSet_971
+[2015.06.23-06.19.02:295][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode' while loading ../../../../../../Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/Content/Blueprints/Behavior/BTS_botDetectEnemy.uasset.
+[2015.06.23-06.19.02:295][  0]LoadErrors: Info Failed to load /Game/Blueprints/Behavior/botTree.botTree Referenced by K2Node_VariableSet_971
+[2015.06.23-06.19.02:295][  0]LoadErrors:Error: Error /Game/Blueprints/Behavior/BTS_botDetectEnemy : Can't find file for asset. /Game/FirstPersonBP/Blueprints/FirstPersonGameMode
+[2015.06.23-06.19.02:295][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode'
+[2015.06.23-06.19.02:295][  0]LoadErrors: Info Failed to load /Game/Blueprints/Behavior/botTree.botTree Referenced by EdGraphPin_16712
+[2015.06.23-06.19.02:295][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode' while loading ../../../../../../Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/Content/Blueprints/Behavior/BTS_botDetectEnemy.uasset.
+[2015.06.23-06.19.02:295][  0]LoadErrors: Info Failed to load /Game/Blueprints/Behavior/botTree.botTree Referenced by EdGraphPin_16712
+[2015.06.23-06.19.02:295][  0]LoadErrors:Error: Error /Game/Blueprints/Behavior/BTS_botDetectEnemy : Can't find file for asset. /Game/FirstPersonBP/Blueprints/FirstPersonGameMode
+[2015.06.23-06.19.02:411][  0]LogBlueprint:Warning: [FirstPersonCharacter] CreatePinForVariable: 'Spawn Transform' variable not found. Base class was probably changed.
+[2015.06.23-06.19.02:411][  0]LogBlueprint:Warning: [FirstPersonCharacter] CreatePinForVariable: 'Spawn Transform' variable not found. Base class was probably changed.
+[2015.06.23-06.19.02:514][  0]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning Could not find a variable named "Spawn Transform" in 'FirstPersonCharacter'.
+Make sure 'FirstPersonCharacter' has been compiled for  Set Spawn Transform 
+[2015.06.23-06.19.02:514][  0]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2015.06.23-06.19.02:514][  0]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2015.06.23-06.19.02:515][  0]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning Can't connect pins  Object  and  Other : This cast has an invalid target type (was the class deleted without a redirect?).
+[2015.06.23-06.19.02:515][  0]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning Can't connect pins  Other  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2015.06.23-06.19.02:527][  0]LogBlueprint:Error: [compiler FirstPersonCharacter] Error Node  Bad cast node  has an invalid target type, please delete and recreate it
+[2015.06.23-06.19.02:527][  0]LogBlueprint:Error: [compiler FirstPersonCharacter] Error Node  Bad cast node  has an invalid target class
+[2015.06.23-06.19.02:568][  0]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning [0008.34] Compile of FirstPersonCharacter failed. 2 Fatal Issue(s) 5 Warning(s) [in 138 ms]
+[2015.06.23-06.19.02:568][  0]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning [0008.34] Compile of FirstPersonCharacter failed. 2 Fatal Issue(s) 6 Warning(s) [in 0 ms]
+[2015.06.23-06.19.02:568][  0]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning [0008.34] Compile of FirstPersonCharacter failed. 2 Fatal Issue(s) 7 Warning(s) [in 0 ms]
+[2015.06.23-06.19.02:582][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Audio/Zombie_In_Pain-SoundBible_com-134322253'
+[2015.06.23-06.19.02:582][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Audio/Zombie_In_Pain-SoundBible_com-134322253' while loading ../../../../../../Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/Content/Blueprints/Behavior/BTS_botDetectEnemy.uasset.
+[2015.06.23-06.19.02:582][  0]LoadErrors:Error: Error /Game/Blueprints/Behavior/BTS_botDetectEnemy : Can't find file for asset. /Game/FirstPersonBP/Audio/Zombie_In_Pain-SoundBible_com-134322253
+[2015.06.23-06.19.02:583][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Audio/Zombie_In_Pain-SoundBible_com-134322253'
+[2015.06.23-06.19.02:583][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Audio/Zombie_In_Pain-SoundBible_com-134322253' while loading ../../../../../../Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/Content/Blueprints/Behavior/BTS_botDetectEnemy.uasset.
+[2015.06.23-06.19.02:583][  0]LoadErrors:Error: Error /Game/Blueprints/Behavior/BTS_botDetectEnemy : Can't find file for asset. /Game/FirstPersonBP/Audio/Zombie_In_Pain-SoundBible_com-134322253
+[2015.06.23-06.19.02:592][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Audio/Zombie_In_Pain-SoundBible_com-134322253'
+[2015.06.23-06.19.02:592][  0]LoadErrors: Info Failed to load /Game/Blueprints/Behavior/botTree.botTree Referenced by EdGraphPin_14309
+[2015.06.23-06.19.02:592][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Audio/Zombie_In_Pain-SoundBible_com-134322253' while loading ../../../../../../Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/Content/Blueprints/Behavior/BTS_botDetectEnemy.uasset.
+[2015.06.23-06.19.02:592][  0]LoadErrors: Info Failed to load /Game/Blueprints/Behavior/botTree.botTree Referenced by EdGraphPin_14309
+[2015.06.23-06.19.02:592][  0]LoadErrors:Error: Error /Game/Blueprints/Behavior/BTS_botDetectEnemy : Can't find file for asset. /Game/FirstPersonBP/Audio/Zombie_In_Pain-SoundBible_com-134322253
+[2015.06.23-06.19.03:576][  0]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning Could not find a variable named "Spawn Transform" in 'FirstPersonCharacter'.
+Make sure 'FirstPersonCharacter' has been compiled for  Set Spawn Transform 
+[2015.06.23-06.19.03:576][  0]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2015.06.23-06.19.03:576][  0]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2015.06.23-06.19.03:577][  0]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning Can't connect pins  Object  and  Other : This cast has an invalid target type (was the class deleted without a redirect?).
+[2015.06.23-06.19.03:577][  0]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning Can't connect pins  Other  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2015.06.23-06.19.03:590][  0]LogBlueprint:Error: [compiler FirstPersonCharacter] Error Node  Bad cast node  has an invalid target type, please delete and recreate it
+[2015.06.23-06.19.03:590][  0]LogBlueprint:Error: [compiler FirstPersonCharacter] Error Node  Bad cast node  has an invalid target class
+[2015.06.23-06.19.03:636][  0]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning [0009.41] Compile of FirstPersonCharacter failed. 2 Fatal Issue(s) 5 Warning(s) [in 148 ms]
+[2015.06.23-06.19.03:637][  0]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning [0009.41] Compile of FirstPersonCharacter failed. 2 Fatal Issue(s) 6 Warning(s) [in 0 ms]
+[2015.06.23-06.19.03:766][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Audio/Zombie_In_Pain-SoundBible_com-134322253'
+[2015.06.23-06.19.03:767][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Audio/Zombie_In_Pain-SoundBible_com-134322253' while loading ../../../../../../Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/Content/Blueprints/Pawn/botCharacter.uasset.
+[2015.06.23-06.19.03:767][  0]LoadErrors:Error: Error /Game/Blueprints/Pawn/botCharacter : Can't find file for asset. /Game/FirstPersonBP/Audio/Zombie_In_Pain-SoundBible_com-134322253
+[2015.06.23-06.19.03:767][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Audio/Zombie_In_Pain-SoundBible_com-134322253'
+[2015.06.23-06.19.03:767][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Audio/Zombie_In_Pain-SoundBible_com-134322253' while loading ../../../../../../Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/Content/Blueprints/Pawn/botCharacter.uasset.
+[2015.06.23-06.19.03:767][  0]LoadErrors:Error: Error /Game/Blueprints/Pawn/botCharacter : Can't find file for asset. /Game/FirstPersonBP/Audio/Zombie_In_Pain-SoundBible_com-134322253
+[2015.06.23-06.19.03:768][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode'
+[2015.06.23-06.19.03:768][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode' while loading ../../../../../../Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/Content/Main/Blueprints/FirstPersonCharacter.uasset.
+[2015.06.23-06.19.03:768][  0]LoadErrors:Error: Error /Game/Main/Blueprints/FirstPersonCharacter : Can't find file for asset. /Game/FirstPersonBP/Blueprints/FirstPersonGameMode
+[2015.06.23-06.19.03:768][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile'
+[2015.06.23-06.19.03:768][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile' while loading ../../../../../../Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/Content/Main/Blueprints/FirstPersonCharacter.uasset.
+[2015.06.23-06.19.03:768][  0]LoadErrors:Error: Error /Game/Main/Blueprints/FirstPersonCharacter : Can't find file for asset. /Game/FirstPersonBP/Blueprints/FirstPersonProjectile
+[2015.06.23-06.19.03:773][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Animations/FirstPerson_AnimBP'
+[2015.06.23-06.19.03:773][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Animations/FirstPerson_AnimBP' while loading ../../../../../../Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/Content/Main/Blueprints/FirstPersonCharacter.uasset.
+[2015.06.23-06.19.03:773][  0]LoadErrors:Error: Error /Game/Main/Blueprints/FirstPersonCharacter : Can't find file for asset. /Game/FirstPersonBP/Animations/FirstPerson_AnimBP
+[2015.06.23-06.19.03:773][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Audio/Pitch_Baseball-SoundBible_com-868005975'
+[2015.06.23-06.19.03:773][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Audio/Pitch_Baseball-SoundBible_com-868005975' while loading ../../../../../../Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/Content/Main/Blueprints/FirstPersonCharacter.uasset.
+[2015.06.23-06.19.03:773][  0]LoadErrors:Error: Error /Game/Main/Blueprints/FirstPersonCharacter : Can't find file for asset. /Game/FirstPersonBP/Audio/Pitch_Baseball-SoundBible_com-868005975
+[2015.06.23-06.19.03:773][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode'
+[2015.06.23-06.19.03:773][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode' while loading ../../../../../../Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/Content/Main/Blueprints/FirstPersonCharacter.uasset.
+[2015.06.23-06.19.03:774][  0]LoadErrors:Error: Error /Game/Main/Blueprints/FirstPersonCharacter : Can't find file for asset. /Game/FirstPersonBP/Blueprints/FirstPersonGameMode
+[2015.06.23-06.19.03:774][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile'
+[2015.06.23-06.19.03:774][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile' while loading ../../../../../../Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/Content/Main/Blueprints/FirstPersonCharacter.uasset.
+[2015.06.23-06.19.03:774][  0]LoadErrors:Error: Error /Game/Main/Blueprints/FirstPersonCharacter : Can't find file for asset. /Game/FirstPersonBP/Blueprints/FirstPersonProjectile
+[2015.06.23-06.19.03:775][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Audio/Pitch_Baseball-SoundBible_com-868005975'
+[2015.06.23-06.19.03:775][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Audio/Pitch_Baseball-SoundBible_com-868005975' while loading ../../../../../../Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/Content/Main/Blueprints/FirstPersonCharacter.uasset.
+[2015.06.23-06.19.03:775][  0]LoadErrors:Error: Error /Game/Main/Blueprints/FirstPersonCharacter : Can't find file for asset. /Game/FirstPersonBP/Audio/Pitch_Baseball-SoundBible_com-868005975
+[2015.06.23-06.19.03:785][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile'
+[2015.06.23-06.19.03:785][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile' while loading ../../../../../../Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/Content/Main/Blueprints/Bot.uasset.
+[2015.06.23-06.19.03:785][  0]LoadErrors:Error: Error /Game/Main/Blueprints/Bot : Can't find file for asset. /Game/FirstPersonBP/Blueprints/FirstPersonProjectile
+[2015.06.23-06.19.03:785][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Animations/FirstPerson_AnimBP'
+[2015.06.23-06.19.03:785][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Animations/FirstPerson_AnimBP' while loading ../../../../../../Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/Content/Main/Blueprints/Bot.uasset.
+[2015.06.23-06.19.03:785][  0]LoadErrors:Error: Error /Game/Main/Blueprints/Bot : Can't find file for asset. /Game/FirstPersonBP/Animations/FirstPerson_AnimBP
+[2015.06.23-06.19.03:786][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode'
+[2015.06.23-06.19.03:786][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode' while loading ../../../../../../Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/Content/Main/Blueprints/Bot.uasset.
+[2015.06.23-06.19.03:786][  0]LoadErrors:Error: Error /Game/Main/Blueprints/Bot : Can't find file for asset. /Game/FirstPersonBP/Blueprints/FirstPersonGameMode
+[2015.06.23-06.19.03:786][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile'
+[2015.06.23-06.19.03:786][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile' while loading ../../../../../../Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/Content/Main/Blueprints/Bot.uasset.
+[2015.06.23-06.19.03:786][  0]LoadErrors:Error: Error /Game/Main/Blueprints/Bot : Can't find file for asset. /Game/FirstPersonBP/Blueprints/FirstPersonProjectile
+[2015.06.23-06.19.03:786][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Animations/FirstPerson_AnimBP'
+[2015.06.23-06.19.03:786][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Animations/FirstPerson_AnimBP' while loading ../../../../../../Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/Content/Main/Blueprints/Bot.uasset.
+[2015.06.23-06.19.03:786][  0]LoadErrors:Error: Error /Game/Main/Blueprints/Bot : Can't find file for asset. /Game/FirstPersonBP/Animations/FirstPerson_AnimBP
+[2015.06.23-06.19.03:786][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Audio/Pitch_Baseball-SoundBible_com-868005975'
+[2015.06.23-06.19.03:786][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Audio/Pitch_Baseball-SoundBible_com-868005975' while loading ../../../../../../Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/Content/Main/Blueprints/Bot.uasset.
+[2015.06.23-06.19.03:786][  0]LoadErrors:Error: Error /Game/Main/Blueprints/Bot : Can't find file for asset. /Game/FirstPersonBP/Audio/Pitch_Baseball-SoundBible_com-868005975
+[2015.06.23-06.19.03:787][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode'
+[2015.06.23-06.19.03:787][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode' while loading ../../../../../../Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/Content/Main/Blueprints/Bot.uasset.
+[2015.06.23-06.19.03:787][  0]LoadErrors:Error: Error /Game/Main/Blueprints/Bot : Can't find file for asset. /Game/FirstPersonBP/Blueprints/FirstPersonGameMode
+[2015.06.23-06.19.03:787][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile'
+[2015.06.23-06.19.03:787][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile' while loading ../../../../../../Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/Content/Main/Blueprints/Bot.uasset.
+[2015.06.23-06.19.03:787][  0]LoadErrors:Error: Error /Game/Main/Blueprints/Bot : Can't find file for asset. /Game/FirstPersonBP/Blueprints/FirstPersonProjectile
+[2015.06.23-06.19.03:787][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Audio/Pitch_Baseball-SoundBible_com-868005975'
+[2015.06.23-06.19.03:787][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Audio/Pitch_Baseball-SoundBible_com-868005975' while loading ../../../../../../Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/Content/Main/Blueprints/Bot.uasset.
+[2015.06.23-06.19.03:787][  0]LoadErrors:Error: Error /Game/Main/Blueprints/Bot : Can't find file for asset. /Game/FirstPersonBP/Audio/Pitch_Baseball-SoundBible_com-868005975
+[2015.06.23-06.19.03:834][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile'
+[2015.06.23-06.19.03:834][  0]LoadErrors: Info Failed to load /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C Referenced by K2Node_DynamicCast_839
+[2015.06.23-06.19.03:834][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile' while loading ../../../../../../Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/Content/Main/Blueprints/Bot.uasset.
+[2015.06.23-06.19.03:834][  0]LoadErrors: Info Failed to load /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C Referenced by K2Node_DynamicCast_839
+[2015.06.23-06.19.03:834][  0]LoadErrors:Error: Error /Game/Main/Blueprints/Bot : Can't find file for asset. /Game/FirstPersonBP/Blueprints/FirstPersonProjectile
+[2015.06.23-06.19.03:834][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile'
+[2015.06.23-06.19.03:834][  0]LoadErrors: Info Failed to load /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C Referenced by EdGraphPin_16562
+[2015.06.23-06.19.03:834][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile' while loading ../../../../../../Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/Content/Main/Blueprints/Bot.uasset.
+[2015.06.23-06.19.03:835][  0]LoadErrors: Info Failed to load /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C Referenced by EdGraphPin_16562
+[2015.06.23-06.19.03:835][  0]LoadErrors:Error: Error /Game/Main/Blueprints/Bot : Can't find file for asset. /Game/FirstPersonBP/Blueprints/FirstPersonProjectile
+[2015.06.23-06.19.03:837][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Audio/Pitch_Baseball-SoundBible_com-868005975'
+[2015.06.23-06.19.03:837][  0]LoadErrors: Info Failed to load /Game/FirstPersonBP/Audio/Pitch_Baseball-SoundBible_com-868005975.Pitch_Baseball-SoundBible_com-868005975 Referenced by EdGraphPin_16655
+[2015.06.23-06.19.03:837][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Audio/Pitch_Baseball-SoundBible_com-868005975' while loading ../../../../../../Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/Content/Main/Blueprints/Bot.uasset.
+[2015.06.23-06.19.03:837][  0]LoadErrors: Info Failed to load /Game/FirstPersonBP/Audio/Pitch_Baseball-SoundBible_com-868005975.Pitch_Baseball-SoundBible_com-868005975 Referenced by EdGraphPin_16655
+[2015.06.23-06.19.03:837][  0]LoadErrors:Error: Error /Game/Main/Blueprints/Bot : Can't find file for asset. /Game/FirstPersonBP/Audio/Pitch_Baseball-SoundBible_com-868005975
+[2015.06.23-06.19.03:839][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode'
+[2015.06.23-06.19.03:839][  0]LoadErrors: Info Failed to load /Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C Referenced by K2Node_DynamicCast_623
+[2015.06.23-06.19.03:839][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode' while loading ../../../../../../Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/Content/Main/Blueprints/Bot.uasset.
+[2015.06.23-06.19.03:839][  0]LoadErrors: Info Failed to load /Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C Referenced by K2Node_DynamicCast_623
+[2015.06.23-06.19.03:839][  0]LoadErrors:Error: Error /Game/Main/Blueprints/Bot : Can't find file for asset. /Game/FirstPersonBP/Blueprints/FirstPersonGameMode
+[2015.06.23-06.19.03:840][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode'
+[2015.06.23-06.19.03:840][  0]LoadErrors: Info Failed to load /Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C Referenced by EdGraphPin_16685
+[2015.06.23-06.19.03:840][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode' while loading ../../../../../../Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/Content/Main/Blueprints/Bot.uasset.
+[2015.06.23-06.19.03:840][  0]LoadErrors: Info Failed to load /Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C Referenced by EdGraphPin_16685
+[2015.06.23-06.19.03:840][  0]LoadErrors:Error: Error /Game/Main/Blueprints/Bot : Can't find file for asset. /Game/FirstPersonBP/Blueprints/FirstPersonGameMode
+[2015.06.23-06.19.03:840][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode'
+[2015.06.23-06.19.03:840][  0]LoadErrors: Info Failed to load /Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C Referenced by K2Node_VariableSet_971
+[2015.06.23-06.19.03:841][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode' while loading ../../../../../../Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/Content/Main/Blueprints/Bot.uasset.
+[2015.06.23-06.19.03:841][  0]LoadErrors: Info Failed to load /Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C Referenced by K2Node_VariableSet_971
+[2015.06.23-06.19.03:841][  0]LoadErrors:Error: Error /Game/Main/Blueprints/Bot : Can't find file for asset. /Game/FirstPersonBP/Blueprints/FirstPersonGameMode
+[2015.06.23-06.19.03:841][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode'
+[2015.06.23-06.19.03:841][  0]LoadErrors: Info Failed to load /Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C Referenced by EdGraphPin_16712
+[2015.06.23-06.19.03:841][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode' while loading ../../../../../../Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/Content/Main/Blueprints/Bot.uasset.
+[2015.06.23-06.19.03:841][  0]LoadErrors: Info Failed to load /Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C Referenced by EdGraphPin_16712
+[2015.06.23-06.19.03:841][  0]LoadErrors:Error: Error /Game/Main/Blueprints/Bot : Can't find file for asset. /Game/FirstPersonBP/Blueprints/FirstPersonGameMode
+[2015.06.23-06.19.03:856][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Animations/FirstPerson_AnimBP'
+[2015.06.23-06.19.03:857][  0]LoadErrors: Info Failed to load /Game/FirstPersonBP/Animations/FirstPerson_AnimBP.FirstPerson_AnimBP_C Referenced by SkeletalMeshComponent_8__FC42DFE8
+[2015.06.23-06.19.03:857][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Animations/FirstPerson_AnimBP' while loading ../../../../../../Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/Content/Main/Blueprints/Bot.uasset.
+[2015.06.23-06.19.03:857][  0]LoadErrors: Info Failed to load /Game/FirstPersonBP/Animations/FirstPerson_AnimBP.FirstPerson_AnimBP_C Referenced by SkeletalMeshComponent_8__FC42DFE8
+[2015.06.23-06.19.03:857][  0]LoadErrors:Error: Error /Game/Main/Blueprints/Bot : Can't find file for asset. /Game/FirstPersonBP/Animations/FirstPerson_AnimBP
+[2015.06.23-06.19.03:972][  0]LogBlueprint:Warning: [FirstPersonCharacter] CreatePinForVariable: 'Spawn Transform' variable not found. Base class was probably changed.
+[2015.06.23-06.19.03:972][  0]LogBlueprint:Warning: [FirstPersonCharacter] CreatePinForVariable: 'Spawn Transform' variable not found. Base class was probably changed.
+[2015.06.23-06.19.04:080][  0]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning Could not find a variable named "Spawn Transform" in 'FirstPersonCharacter'.
+Make sure 'FirstPersonCharacter' has been compiled for  Set Spawn Transform 
+[2015.06.23-06.19.04:080][  0]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2015.06.23-06.19.04:080][  0]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2015.06.23-06.19.04:080][  0]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning Can't connect pins  Object  and  Other : This cast has an invalid target type (was the class deleted without a redirect?).
+[2015.06.23-06.19.04:081][  0]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning Can't connect pins  Other  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2015.06.23-06.19.04:093][  0]LogBlueprint:Error: [compiler FirstPersonCharacter] Error Node  Bad cast node  has an invalid target type, please delete and recreate it
+[2015.06.23-06.19.04:093][  0]LogBlueprint:Error: [compiler FirstPersonCharacter] Error Node  Bad cast node  has an invalid target class
+[2015.06.23-06.19.04:135][  0]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning [0009.91] Compile of FirstPersonCharacter failed. 2 Fatal Issue(s) 5 Warning(s) [in 144 ms]
+[2015.06.23-06.19.04:135][  0]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning [0009.91] Compile of FirstPersonCharacter failed. 2 Fatal Issue(s) 6 Warning(s) [in 0 ms]
+[2015.06.23-06.19.04:136][  0]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning [0009.91] Compile of FirstPersonCharacter failed. 2 Fatal Issue(s) 7 Warning(s) [in 0 ms]
+[2015.06.23-06.19.04:271][  0]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning Could not find a variable named "Spawn Transform" in 'FirstPersonCharacter'.
+Make sure 'FirstPersonCharacter' has been compiled for  Set Spawn Transform 
+[2015.06.23-06.19.04:271][  0]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2015.06.23-06.19.04:271][  0]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2015.06.23-06.19.04:272][  0]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning Can't connect pins  Object  and  Other : This cast has an invalid target type (was the class deleted without a redirect?).
+[2015.06.23-06.19.04:272][  0]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning Can't connect pins  Other  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2015.06.23-06.19.04:284][  0]LogBlueprint:Error: [compiler FirstPersonCharacter] Error Node  Bad cast node  has an invalid target type, please delete and recreate it
+[2015.06.23-06.19.04:284][  0]LogBlueprint:Error: [compiler FirstPersonCharacter] Error Node  Bad cast node  has an invalid target class
+[2015.06.23-06.19.04:330][  0]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning [0010.10] Compile of FirstPersonCharacter failed. 2 Fatal Issue(s) 5 Warning(s) [in 146 ms]
+[2015.06.23-06.19.04:330][  0]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning [0010.10] Compile of FirstPersonCharacter failed. 2 Fatal Issue(s) 6 Warning(s) [in 0 ms]
+[2015.06.23-06.19.06:563][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.06.23-06.19.06:608][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.06.23-06.19.06:611][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.06.23-06.19.06:683][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 71.81ms to complete.
+[2015.06.23-06.19.06:683][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 5.112
+[2015.06.23-06.19.06:825][  0]LogCollectionManager: Loaded 0 collections in 0.001777 seconds
+[2015.06.23-06.19.06:831][  0]LogContentBrowser: Native class hierarchy populated in 0.0063 seconds. Added 1792 classes and 301 folders.
+[2015.06.23-06.19.06:875][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.06.23-06.19.06:902][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.06.23-06.19.06:916][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2015.06.23-06.19.07:005][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.06.23-06.19.07:009][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.06.23-06.19.07:029][  0]LogLoad: Full Startup: 12.80 seconds (BP compile: 2.04 seconds)
+[2015.06.23-06.19.07:124][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.06.23-06.19.07:184][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.06.23-06.19.07:350][  0]LogRenderer: Reallocating scene render targets to support 1208x632 (Frame:2).
+[2015.06.23-06.19.07:396][  1]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.23-06.19.07:396][  1]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.23-06.19.07:396][  1]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.23-06.19.07:396][  1]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.23-06.19.07:396][  1]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.23-06.19.07:396][  1]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.23-06.19.07:396][  1]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.23-06.19.07:396][  1]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.23-06.19.07:396][  1]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.23-06.19.07:396][  1]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.23-06.19.07:396][  1]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.23-06.19.07:396][  1]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.23-06.19.07:397][  1]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.23-06.19.07:397][  1]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.23-06.19.07:397][  1]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.23-06.19.07:397][  1]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.23-06.19.07:397][  1]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.23-06.19.07:397][  1]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.23-06.19.07:397][  1]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.23-06.19.07:397][  1]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.23-06.19.07:397][  1]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.23-06.19.07:397][  1]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.23-06.19.07:397][  1]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.23-06.19.07:397][  1]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.23-06.19.08:024][ 14]LogAssetRegistry: Asset discovery search completed in 7.3367 seconds
+[2015.06.23-06.19.40:822][977]LogBlueprint:Warning: [compiler FirstPersonCharacter_2] Warning Could not find a variable named "Spawn Transform" in 'FirstPersonCharacter_2'.
+Make sure 'FirstPersonCharacter_2' has been compiled for  Set Spawn Transform 
+[2015.06.23-06.19.40:822][977]LogBlueprint:Warning: [compiler FirstPersonCharacter_2] Warning Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2015.06.23-06.19.40:822][977]LogBlueprint:Warning: [compiler FirstPersonCharacter_2] Warning Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2015.06.23-06.19.40:823][977]LogBlueprint:Warning: [compiler FirstPersonCharacter_2] Warning Can't connect pins  Object  and  Other : This cast has an invalid target type (was the class deleted without a redirect?).
+[2015.06.23-06.19.40:823][977]LogBlueprint:Warning: [compiler FirstPersonCharacter_2] Warning Can't connect pins  Other  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2015.06.23-06.19.40:858][977]LogBlueprint:Error: [compiler FirstPersonCharacter_2] Error Node  Bad cast node  has an invalid target type, please delete and recreate it
+[2015.06.23-06.19.40:858][977]LogBlueprint:Error: [compiler FirstPersonCharacter_2] Error Node  Bad cast node  has an invalid target class
+[2015.06.23-06.19.40:996][977]LogBlueprint:Warning: [compiler FirstPersonCharacter_2] Warning [0046.77] Compile of FirstPersonCharacter_2 failed. 2 Fatal Issue(s) 5 Warning(s) [in 301 ms]
+[2015.06.23-06.19.41:171][977]LogBlueprint:Warning: [compiler FirstPersonCharacter_2] Warning Could not find a variable named "Spawn Transform" in 'FirstPersonCharacter_2'.
+Make sure 'FirstPersonCharacter_2' has been compiled for  Set Spawn Transform 
+[2015.06.23-06.19.41:171][977]LogBlueprint:Warning: [compiler FirstPersonCharacter_2] Warning Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2015.06.23-06.19.41:171][977]LogBlueprint:Warning: [compiler FirstPersonCharacter_2] Warning Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2015.06.23-06.19.41:171][977]LogBlueprint:Warning: [compiler FirstPersonCharacter_2] Warning Can't connect pins  Object  and  Other : This cast has an invalid target type (was the class deleted without a redirect?).
+[2015.06.23-06.19.41:172][977]LogBlueprint:Warning: [compiler FirstPersonCharacter_2] Warning Can't connect pins  Other  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2015.06.23-06.19.41:207][977]LogBlueprint:Error: [compiler FirstPersonCharacter_2] Error Node  Bad cast node  has an invalid target type, please delete and recreate it
+[2015.06.23-06.19.41:207][977]LogBlueprint:Error: [compiler FirstPersonCharacter_2] Error Node  Bad cast node  has an invalid target class
+[2015.06.23-06.19.41:416][977]LogBlueprint:Warning: [compiler FirstPersonCharacter_2] Warning [0047.19] Compile of FirstPersonCharacter_2 failed. 2 Fatal Issue(s) 5 Warning(s) [in 375 ms]
+[2015.06.23-06.19.41:417][977]LogBlueprint:Warning: [compiler FirstPersonCharacter_2] Warning [0047.19] Compile of FirstPersonCharacter_2 failed. 2 Fatal Issue(s) 6 Warning(s) [in 0 ms]
+[2015.06.23-06.19.41:417][977]LogBlueprint:Warning: [compiler FirstPersonCharacter_2] Warning [0047.19] Compile of FirstPersonCharacter_2 failed. 2 Fatal Issue(s) 7 Warning(s) [in 0 ms]
+[2015.06.23-06.19.41:417][977]LogBlueprint:Warning: [compiler FirstPersonCharacter_2] Warning [0047.19] Compile of FirstPersonCharacter_2 failed. 2 Fatal Issue(s) 8 Warning(s) [in 0 ms]
+[2015.06.23-06.19.41:417][977]LogBlueprint:Warning: [compiler FirstPersonCharacter_2] Warning [0047.19] Compile of FirstPersonCharacter_2 failed. 2 Fatal Issue(s) 9 Warning(s) [in 0 ms]
+[2015.06.23-06.19.41:417][977]LogBlueprint:Warning: [compiler FirstPersonCharacter_2] Warning [0047.19] Compile of FirstPersonCharacter_2 failed. 2 Fatal Issue(s) 10 Warning(s) [in 0 ms]
+[2015.06.23-06.19.51:037][599]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.23-06.19.51:037][599]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.06.23-06.19.51:037][599]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.06.23-06.19.51:037][599]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.06.23-06.19.51:038][599]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2015.06.23-06.19.57:915][599]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_FirstPersonCharacter_C_0' or package '/Engine/Transient'.
+[2015.06.23-06.19.57:915][599]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_FirstPersonCharacter_C_1' or package '/Engine/Transient'.
+[2015.06.23-06.19.57:915][599]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_FirstPersonCharacter_C_250' or package '/Engine/Transient'.
+[2015.06.23-06.19.57:915][599]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_FirstPersonCharacter_C_249' or package '/Engine/Transient'.
+[2015.06.23-06.19.58:108][599]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.23-06.19.58:108][599]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.23-06.19.58:108][599]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.23-06.19.58:108][599]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.23-06.19.58:108][599]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.23-06.19.58:108][599]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.23-06.19.58:108][599]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.23-06.19.58:108][599]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.23-06.19.58:108][599]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.23-06.19.58:108][599]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.23-06.19.58:108][599]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.23-06.19.58:108][599]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.23-06.19.58:108][599]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.23-06.19.58:108][599]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.23-06.19.58:109][599]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.23-06.19.58:109][599]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.23-06.19.58:109][599]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.23-06.19.58:109][599]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.23-06.19.58:109][599]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.23-06.19.58:109][599]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.23-06.19.58:109][599]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.23-06.19.58:109][599]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.23-06.19.58:109][599]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.23-06.19.58:109][599]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.23-06.20.05:855][ 24]LogBlueprint:Error: [compiler FirstPersonCharacter] Error Could not find a function named "HitReaction_PhysAnim_Event" in 'FirstPersonCharacter_C'.
+Make sure 'FirstPersonCharacter_C' has been compiled for  Hit Reaction Phys Anim Event 
+[2015.06.23-06.20.05:855][ 24]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning Could not find a variable named "Spawn Transform" in 'FirstPersonCharacter'.
+Make sure 'FirstPersonCharacter' has been compiled for  Set Spawn Transform 
+[2015.06.23-06.20.05:855][ 24]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2015.06.23-06.20.05:856][ 24]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2015.06.23-06.20.05:856][ 24]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning Can't connect pins  Object  and  Other : This cast has an invalid target type (was the class deleted without a redirect?).
+[2015.06.23-06.20.05:856][ 24]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning Can't connect pins  Other  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2015.06.23-06.20.05:998][ 24]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning [0071.77] Compile of FirstPersonCharacter failed. 1 Fatal Issue(s) 5 Warning(s) [in 228 ms]
+[2015.06.23-06.20.05:998][ 24]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning [0071.77] Compile of FirstPersonCharacter failed. 1 Fatal Issue(s) 6 Warning(s) [in 0 ms]
+[2015.06.23-06.20.05:998][ 24]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning [0071.77] Compile of FirstPersonCharacter failed. 1 Fatal Issue(s) 7 Warning(s) [in 0 ms]
+[2015.06.23-06.20.05:998][ 24]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning [0071.77] Compile of FirstPersonCharacter failed. 1 Fatal Issue(s) 8 Warning(s) [in 0 ms]
+[2015.06.23-06.20.05:998][ 24]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.23-06.20.05:998][ 24]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2015.06.23-06.20.05:999][ 24]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2015.06.23-06.20.06:031][ 24]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning [0071.80] Compile of FirstPersonCharacter failed. 1 Fatal Issue(s) 9 Warning(s) [in 32 ms]
+[2015.06.23-06.20.06:031][ 24]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning [0071.80] Compile of FirstPersonCharacter failed. 1 Fatal Issue(s) 10 Warning(s) [in 0 ms]
+[2015.06.23-06.20.06:031][ 24]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning [0071.80] Compile of FirstPersonCharacter failed. 1 Fatal Issue(s) 11 Warning(s) [in 0 ms]
+[2015.06.23-06.20.06:031][ 24]LogMetaData: Removing '/Game/Main/Blueprints/FirstPersonCharacter.SKEL_FirstPersonCharacter_C' ref from Metadata '/Game/Main/Blueprints/FirstPersonCharacter_2.PackageMetaData'
+[2015.06.23-06.20.06:031][ 24]LogMetaData: Removing '/Game/Main/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C' ref from Metadata '/Game/Main/Blueprints/FirstPersonCharacter_2.PackageMetaData'
+[2015.06.23-06.20.06:493][ 24]LogSavePackage: Save=355.837708ms
+[2015.06.23-06.20.06:493][ 24]LogSavePackage: Moving '../../../../../../Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/Saved/FirstPersonCharacter06F04ED143A8D901F02F5DBE52033918.tmp' to '../../../../../../Users/TTV14SVilleK/Documents/Unreal Projects/MayhemPunch 4.8/Content/Main/Blueprints/FirstPersonCharacter.uasset'
+[2015.06.23-06.20.06:518][ 24]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.23-06.20.06:622][ 24]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.23-06.20.06:622][ 24]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.23-06.20.06:622][ 24]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.23-06.20.06:622][ 24]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.23-06.20.06:622][ 24]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.23-06.20.06:622][ 24]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.23-06.20.06:622][ 24]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.23-06.20.06:622][ 24]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.23-06.20.06:622][ 24]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.23-06.20.06:622][ 24]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.23-06.20.06:622][ 24]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.23-06.20.06:622][ 24]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.23-06.20.06:623][ 24]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.23-06.20.06:623][ 24]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.23-06.20.06:623][ 24]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.23-06.20.06:623][ 24]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.23-06.20.06:623][ 24]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.23-06.20.06:623][ 24]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.23-06.20.06:623][ 24]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.23-06.20.06:623][ 24]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.23-06.20.06:623][ 24]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.23-06.20.06:623][ 24]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.23-06.20.06:623][ 24]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.23-06.20.06:623][ 24]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.23-06.20.08:330][194]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.06.23-06.20.08:377][194]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.06.23-06.20.08:382][194]LogEnum:Warning: Enum name collision: 'BotState::NewEnumerator0' is in both '/Game/ThirdPersonBP/Blueprints/BotState.BotState' and '/Game/Blueprints/Behavior/botState.botState'
+[2015.06.23-06.20.08:382][194]LogEnum:Warning: Enum name collision: 'BotState::NewEnumerator1' is in both '/Game/ThirdPersonBP/Blueprints/BotState.BotState' and '/Game/Blueprints/Behavior/botState.botState'
+[2015.06.23-06.20.08:382][194]LogEnum:Warning: Enum name collision: 'BotState::NewEnumerator2' is in both '/Game/ThirdPersonBP/Blueprints/BotState.BotState' and '/Game/Blueprints/Behavior/botState.botState'
+[2015.06.23-06.20.08:382][194]LogEnum:Warning: Enum name collision: 'BotState::BotState_MAX' is in both '/Game/ThirdPersonBP/Blueprints/BotState.BotState' and '/Game/Blueprints/Behavior/botState.botState'
+[2015.06.23-06.20.50:365][841]BlueprintLog: New page: Compile FirstPersonCharacter
+[2015.06.23-06.20.50:498][841]LogBlueprint:Error: [compiler FirstPersonCharacter] Error Could not find a function named "HitReaction_PhysAnim_Event" in 'FirstPersonCharacter_C'.
+Make sure 'FirstPersonCharacter_C' has been compiled for  Hit Reaction Phys Anim Event 
+[2015.06.23-06.20.50:499][841]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning Can't connect pins  Object  and  Other : This cast has an invalid target type (was the class deleted without a redirect?).
+[2015.06.23-06.20.50:499][841]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning Can't connect pins  Other  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2015.06.23-06.20.50:661][841]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.23-06.20.50:661][841]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2015.06.23-06.20.50:661][841]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2015.06.23-06.20.50:720][841]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning [0116.49] Compile of FirstPersonCharacter failed. 1 Fatal Issue(s) 2 Warning(s) [in 354 ms]
+[2015.06.23-06.20.50:720][841]BlueprintEditorCompileResults:Error: Error Could not find a function named "HitReaction_PhysAnim_Event" in 'FirstPersonCharacter_C'.
+Make sure 'FirstPersonCharacter_C' has been compiled for  Hit Reaction Phys Anim Event 
+[2015.06.23-06.20.50:720][841]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Object  and  Other : This cast has an invalid target type (was the class deleted without a redirect?).
+[2015.06.23-06.20.50:720][841]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Other  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2015.06.23-06.20.50:720][841]BlueprintEditorCompileResults:Warning: Warning [0116.49] Compile of FirstPersonCharacter failed. 1 Fatal Issue(s) 2 Warning(s) [in 354 ms]
+[2015.06.23-06.21.15:885][417]BlueprintLog: New page: Compile FirstPersonCharacter
+[2015.06.23-06.21.16:016][417]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning 'First Person Character' does not inherit from 'Primitive Component' ( Cast To FirstPersonCharacter  would always fail).
+[2015.06.23-06.21.16:017][417]LogBlueprint:Error: [compiler FirstPersonCharacter] Error Could not find a function named "HitReaction_PhysAnim_Event" in 'FirstPersonCharacter_C'.
+Make sure 'FirstPersonCharacter_C' has been compiled for  Hit Reaction Phys Anim Event 
+[2015.06.23-06.21.16:180][417]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.23-06.21.16:232][417]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning [0142.01] Compile of FirstPersonCharacter failed. 1 Fatal Issue(s) 1 Warning(s) [in 347 ms]
+[2015.06.23-06.21.16:232][417]BlueprintEditorCompileResults:Warning: Warning 'First Person Character' does not inherit from 'Primitive Component' ( Cast To FirstPersonCharacter  would always fail).
+[2015.06.23-06.21.16:232][417]BlueprintEditorCompileResults:Error: Error Could not find a function named "HitReaction_PhysAnim_Event" in 'FirstPersonCharacter_C'.
+Make sure 'FirstPersonCharacter_C' has been compiled for  Hit Reaction Phys Anim Event 
+[2015.06.23-06.21.16:232][417]BlueprintEditorCompileResults:Warning: Warning [0142.01] Compile of FirstPersonCharacter failed. 1 Fatal Issue(s) 1 Warning(s) [in 347 ms]
+[2015.06.23-06.21.52:078][498]BlueprintLog: New page: Compile FirstPersonCharacter
+[2015.06.23-06.21.52:210][498]LogBlueprint:Error: [compiler FirstPersonCharacter] Error Could not find a function named "HitReaction_PhysAnim_Event" in 'FirstPersonCharacter_C'.
+Make sure 'FirstPersonCharacter_C' has been compiled for  Hit Reaction Phys Anim Event 
+[2015.06.23-06.21.52:374][498]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.23-06.21.52:430][498]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning [0178.21] Compile of FirstPersonCharacter failed. 1 Fatal Issue(s) 0 Warning(s) [in 351 ms]
+[2015.06.23-06.21.52:430][498]BlueprintEditorCompileResults:Error: Error Could not find a function named "HitReaction_PhysAnim_Event" in 'FirstPersonCharacter_C'.
+Make sure 'FirstPersonCharacter_C' has been compiled for  Hit Reaction Phys Anim Event 
+[2015.06.23-06.21.52:430][498]BlueprintEditorCompileResults:Warning: Warning [0178.21] Compile of FirstPersonCharacter failed. 1 Fatal Issue(s) 0 Warning(s) [in 351 ms]
+[2015.06.23-06.22.13:881][721]BlueprintLog: New page: Compile FirstPersonCharacter
+[2015.06.23-06.22.14:084][721]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.23-06.22.14:142][721]BlueprintEditorCompileResults: Info [0199.92] Compile of FirstPersonCharacter successful! [in 260 ms]
+[2015.06.23-06.22.16:744][860]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.06.23-06.22.16:753][860]LogPlayLevel: [PIE] Compiling FirstPersonExampleMap before PIE...
+[2015.06.23-06.22.16:833][860]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.23-06.22.16:867][860]LogPlayLevel: PIE:  Blueprint regeneration took 122 ms (1 blueprints)
+[2015.06.23-06.22.25:442][860]PIE: New page: PIE session: FirstPersonExampleMap (Jun 23, 2015, 12:22:25 PM)
+[2015.06.23-06.22.25:443][860]LogPlayLevel: Creating play world package: /Game/Main/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.06.23-06.22.25:630][860]LogPlayLevel: PIE: StaticDuplicateObject took: (0.187188s)
+[2015.06.23-06.22.25:630][860]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.06.23-06.22.25:631][860]LogPlayLevel: PIE: World Init took: (0.001120s)
+[2015.06.23-06.22.25:631][860]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Main/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/Main/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.188529s)
+[2015.06.23-06.22.25:662][860]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.06.23-06.22.25:668][860]LogInit: FAudioDevice initialized.
+[2015.06.23-06.22.25:728][860]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.06.23-06.22.25:785][860]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.06.23-06.22.25:785][860]LogWorld: Bringing World /Game/Main/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.06.23-09.22.25
+[2015.06.23-06.22.25:785][860]LogActor:Warning: GameSession /Game/Main/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.06.23-06.22.25:785][860]LogActor:Warning: GameNetworkManager /Game/Main/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.06.23-06.22.25:806][860]LogWorld: Bringing up level for play took: 0.075905
+[2015.06.23-06.22.25:888][860]LogCrashTracker: 
+
+

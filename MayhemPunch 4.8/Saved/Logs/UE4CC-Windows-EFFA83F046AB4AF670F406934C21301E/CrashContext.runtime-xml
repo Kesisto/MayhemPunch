@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<Version>1</Version>
+<ProcessId>15508</ProcessId>
+<IsInternalBuild>0</IsInternalBuild>
+<IsPerforceBuild>0</IsPerforceBuild>
+<IsSourceDistribution>0</IsSourceDistribution>
+<GameName>MayhemPunch</GameName>
+<ExecutableName>UE4Editor</ExecutableName>
+<BuildConfiguration>Development</BuildConfiguration>
+<PlatformName>Windows</PlatformName>
+<PlatformNameIni>Windows</PlatformNameIni>
+<EngineMode>Editor</EngineMode>
+<EngineVersion>4.8.0-2579680+++depot+UE4-Releases+4.8</EngineVersion>
+<CommandLine></CommandLine>
+<LanguageLCID>9</LanguageLCID>
+<DefaultLocale>fi_FI</DefaultLocale>
+<IsUE4Release>1</IsUE4Release>
+<UserName>TTV14SRasmusB</UserName>
+<BaseDir>C:/Program Files/Unreal Engine/4.8/Engine/Binaries/Win64/</BaseDir>
+<RootDir>C:/Program Files/Unreal Engine/4.8/</RootDir>
+<MachineId>64D2BF4C4CA57118A1A68788336886C8</MachineId>
+<EpicAccountId>7e0b433ad2784f9b974863d89e61f824</EpicAccountId>
+<CallStack></CallStack>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<ErrorMessage></ErrorMessage>
+<MiscNumberOfCores>4</MiscNumberOfCores>
+<MiscNumberOfCoresIncludingHyperthreads>8</MiscNumberOfCoresIncludingHyperthreads>
+<MiscIs64bitOperatingSystem>1</MiscIs64bitOperatingSystem>
+<MiscCPUVendor>GenuineIntel</MiscCPUVendor>
+<MiscCPUBrand>        Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz</MiscCPUBrand>
+<MiscPrimaryGPUBrand>NVIDIA GeForce GT 640</MiscPrimaryGPUBrand>
+<MiscOSVersionMajor>Windows 7</MiscOSVersionMajor>
+<MiscOSVersionMinor>Service Pack 1</MiscOSVersionMinor>
+<MemoryStatsTotalPhysical>17138917376</MemoryStatsTotalPhysical>
+<MemoryStatsTotalVirtual>8796092891136</MemoryStatsTotalVirtual>
+<MemoryStatsPageSize>4096</MemoryStatsPageSize>
+<MemoryStatsTotalPhysicalGB>16</MemoryStatsTotalPhysicalGB>
+</RuntimeProperties>
+<PlatformProperties>
+<Platform.IsRunningWindows>1</Platform.IsRunningWindows>
+</PlatformProperties>
+</FGenericCrashContext>

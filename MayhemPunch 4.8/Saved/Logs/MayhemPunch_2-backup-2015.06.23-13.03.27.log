@@ -1,0 +1,146 @@
+﻿[2015.06.23-10.03.16:030][  0]Log file open, 06/23/15 13:03:16
+[2015.06.23-10.03.16:030][  0]LogInit:Display: Running engine for game: MayhemPunch
+[2015.06.23-10.03.16:030][  0]LogInit:Display: RandInit(-389853777) SRandInit(-389853777).
+[2015.06.23-10.03.16:030][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.06.23-10.03.16:030][  0]LogStats: Stats thread started
+[2015.06.23-10.03.16:030][  0]LogInit: Version: 4.8.0-2579680+++depot+UE4-Releases+4.8
+[2015.06.23-10.03.16:030][  0]LogInit: API Version: 2579680
+[2015.06.23-10.03.16:030][  0]LogInit: Compiled (64-bit): Jun  8 2015 03:34:53
+[2015.06.23-10.03.16:030][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.06.23-10.03.16:030][  0]LogInit: Build Configuration: Development
+[2015.06.23-10.03.16:030][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.06.23-10.03.16:030][  0]LogInit: Command line:  /Temp/Autosaves/Game/Main/Maps/UEDPCFirstPersonExampleMap -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess 
+[2015.06.23-10.03.16:030][  0]LogInit: Base directory: C:/Program Files/Unreal Engine/4.8/Engine/Binaries/Win64/
+[2015.06.23-10.03.16:030][  0]LogInit: Rocket: 1
+[2015.06.23-10.03.16:047][  0]LogInit: Using libcurl 7.41.0
+[2015.06.23-10.03.16:047][  0]LogInit:  - built for x86_64-pc-win32
+[2015.06.23-10.03.16:047][  0]LogInit:  - supports SSL with WinSSL
+[2015.06.23-10.03.16:047][  0]LogInit:  - other features:
+[2015.06.23-10.03.16:047][  0]LogInit:      CURL_VERSION_SSL
+[2015.06.23-10.03.16:047][  0]LogInit:      CURL_VERSION_IPV6
+[2015.06.23-10.03.16:047][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.06.23-10.03.16:047][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.06.23-10.03.16:047][  0]LogInit:      CURL_VERSION_IDN
+[2015.06.23-10.03.16:047][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.06.23-10.03.16:047][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.06.23-10.03.16:047][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.06.23-10.03.16:047][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.06.23-10.03.16:047][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.06.23-10.03.16:094][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.06.23-10.03.16:108][  0]LogVoice:Warning: Failed to initialize voice interface
+[2015.06.23-10.03.16:120][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.06.23-10.03.16:127][  0]LogInit: Object subsystem initialized
+[2015.06.23-10.03.16:128][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.06.23-10.03.16:128][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/TTV14SRasmusB/Documents/Unreal Projects/MayhemPunch 4.8/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.06.23-10.03.16:128][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.06.23-10.03.16:128][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/TTV14SRasmusB/Documents/Unreal Projects/MayhemPunch 4.8/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.06.23-10.03.16:128][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.06.23-10.03.16:128][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/TTV14SRasmusB/Documents/Unreal Projects/MayhemPunch 4.8/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.06.23-10.03.16:128][  0]LogInit: Selected Device Profile: [Windows]
+[2015.06.23-10.03.16:128][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.06.23-10.03.16:131][  0]LogInit: Computer: TA11LDML-28
+[2015.06.23-10.03.16:131][  0]LogInit: User: TTV14SRasmusB
+[2015.06.23-10.03.16:131][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.06.23-10.03.16:131][  0]LogInit: High frequency timer resolution =3.316064 MHz
+[2015.06.23-10.03.16:131][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2015.06.23-10.03.16:131][  0]LogMemory: Platform Memory Stats for Windows
+[2015.06.23-10.03.16:131][  0]LogMemory: Process Physical Memory: 55.25 MB used, 55.25 MB peak
+[2015.06.23-10.03.16:131][  0]LogMemory: Process Virtual Memory: 27.75 MB used, 27.82 MB peak
+[2015.06.23-10.03.16:131][  0]LogMemory: Physical Memory: 5363.61 MB used, 16344.95 MB total
+[2015.06.23-10.03.16:131][  0]LogMemory: Virtual Memory: 293.80 MB used, 8388608.00 MB total
+[2015.06.23-10.03.16:165][  0]LogTextLocalizationManager: The requested culture ('fi_FI') has no localization data; falling back to 'en' for localization and internationalization data.
+[2015.06.23-10.03.16:416][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (C:/Program Files/Unreal Engine/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (C:/Program Files/Unreal Engine/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.06.23-10.03.16:797][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GT 640 (Feature Level 11_0)
+[2015.06.23-10.03.16:797][  0]LogD3D11RHI: Adapter has 971MB of dedicated video memory, 0MB of dedicated system memory, and 3072MB of shared system memory, 2 output[s]
+[2015.06.23-10.03.16:797][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.06.23-10.03.16:804][  0]LogRHI: Texture pool is 680 MB (70% of 971 MB)
+[2015.06.23-10.03.16:815][  0]LogD3D11RHI: Async texture creation enabled
+[2015.06.23-10.03.16:835][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.06.23-10.03.17:748][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.06.23-10.03.17:761][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.06.23-10.03.17:776][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.06.23-10.03.17:790][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.06.23-10.03.17:805][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.06.23-10.03.17:817][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.06.23-10.03.17:829][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.06.23-10.03.17:841][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.06.23-10.03.17:853][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.06.23-10.03.17:865][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.06.23-10.03.17:877][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.06.23-10.03.17:889][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.06.23-10.03.17:934][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.06.23-10.03.17:945][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.06.23-10.03.17:957][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.06.23-10.03.17:971][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.06.23-10.03.17:971][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.06.23-10.03.18:171][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.06.23-10.03.18:225][  0]LogDerivedDataCache: Loaded boot cache 0.05s 53MB C:/Users/TTV14SRasmusB/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.06.23-10.03.18:225][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/TTV14SRasmusB/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.06.23-10.03.18:225][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/TTV14SRasmusB/Documents/Unreal Projects/MayhemPunch 4.8/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.06.23-10.03.18:225][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.06.23-10.03.18:225][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/TTV14SRasmusB/Documents/Unreal Projects/MayhemPunch 4.8/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.06.23-10.03.18:225][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.06.23-10.03.18:383][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.06.23-10.03.18:394][  0]LogDerivedDataCache: Using Local data cache path C:/Users/TTV14SRasmusB/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.06.23-10.03.18:615][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.06.23-10.03.18:615][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.06.23-10.03.18:625][  0]LogInit: Selected Device Profile: [Windows]
+[2015.06.23-10.03.18:648][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.06.23-10.03.18:648][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.06.23-10.03.19:463][  0]LogWindowsMoviePlayer: Unable to load movie: ../../../../../../Users/TTV14SRasmusB/Documents/Unreal Projects/MayhemPunch 4.8/Content/Movies/Default_Startup.mp4
+[2015.06.23-10.03.19:609][  0]SourceControl: Info Source control is disabled
+[2015.06.23-10.03.19:609][  0]SourceControl: Info Source control is disabled
+[2015.06.23-10.03.19:618][  0]SourceControl: Info Source control is disabled
+[2015.06.23-10.03.19:808][  0]LogObj: 25781 objects as part of root set at end of initial load.
+[2015.06.23-10.03.19:808][  0]LogUObjectAllocator: 5195968 out of 0 bytes used by permanent object pool.
+[2015.06.23-10.03.19:881][  0]LogAutomationTest:Warning: ERR: Transient text cannot be serialized "Testing Transient serialization detection".
+[2015.06.23-10.03.19:881][  0]LogEngine: Initializing Engine...
+[2015.06.23-10.03.19:883][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.06.23-10.03.19:884][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
+[2015.06.23-10.03.19:970][  0]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.06.23-10.03.19:976][  0]LogInit: FAudioDevice initialized.
+[2015.06.23-10.03.19:980][  0]LogInit: Texture streaming: Disabled
+[2015.06.23-10.03.21:014][  0]LogNet: Browse: /Temp/Autosaves/Game/Main/Maps/UEDPCFirstPersonExampleMap?Name=Player
+[2015.06.23-10.03.21:014][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/Main/Maps/UEDPCFirstPersonExampleMap?Name=Player
+[2015.06.23-10.03.21:042][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000FC26DE0
+[2015.06.23-10.03.21:143][  0]LogMemory: Platform Memory Stats for Windows
+[2015.06.23-10.03.21:143][  0]LogMemory: Process Physical Memory: 352.16 MB used, 352.17 MB peak
+[2015.06.23-10.03.21:143][  0]LogMemory: Process Virtual Memory: 299.77 MB used, 302.57 MB peak
+[2015.06.23-10.03.21:143][  0]LogMemory: Physical Memory: 5601.43 MB used, 16344.95 MB total
+[2015.06.23-10.03.21:143][  0]LogMemory: Virtual Memory: 798.80 MB used, 8388608.00 MB total
+[2015.06.23-10.03.21:143][  0]LogMemory: 
+[2015.06.23-10.03.21:143][  0]Allocator Stats for TBB: (not implemented)
+[2015.06.23-10.03.21:285][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Audio/Strong_Punch-Mike_Koenig-574430706'
+[2015.06.23-10.03.21:285][  0]LogUObjectGlobals:Warning: Failed to load '/Game/FirstPersonBP/Audio/Strong_Punch-Mike_Koenig-574430706': Can't find file '/Game/FirstPersonBP/Audio/Strong_Punch-Mike_Koenig-574430706'
+[2015.06.23-10.03.21:285][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Audio/Strong_Punch-Mike_Koenig-574430706' while loading NULL.
+[2015.06.23-10.03.21:285][  0]LogUObjectGlobals:Warning: Failed to load '/Game/FirstPersonBP/Audio/Strong_Punch-Mike_Koenig-574430706': Can't find file for asset '/Game/FirstPersonBP/Audio/Strong_Punch-Mike_Koenig-574430706' while loading NULL.
+[2015.06.23-10.03.21:289][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Audio/Strong_Punch-Mike_Koenig-574430706'
+[2015.06.23-10.03.21:289][  0]LoadErrors: Info Failed to load /Game/Blueprints/Pawn/botCharacter.botCharacter_C:ArrowComponent_6 Referenced by EdGraphPin_15423
+[2015.06.23-10.03.21:289][  0]LogUObjectGlobals:Warning: Failed to load '/Game/FirstPersonBP/Audio/Strong_Punch-Mike_Koenig-574430706': Can't find file '/Game/FirstPersonBP/Audio/Strong_Punch-Mike_Koenig-574430706'
+[2015.06.23-10.03.21:289][  0]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Audio/Strong_Punch-Mike_Koenig-574430706' while loading NULL.
+[2015.06.23-10.03.21:289][  0]LoadErrors: Info Failed to load /Game/Blueprints/Pawn/botCharacter.botCharacter_C:ArrowComponent_6 Referenced by EdGraphPin_15423
+[2015.06.23-10.03.21:289][  0]LogUObjectGlobals:Warning: Failed to load '/Game/FirstPersonBP/Audio/Strong_Punch-Mike_Koenig-574430706': Can't find file for asset '/Game/FirstPersonBP/Audio/Strong_Punch-Mike_Koenig-574430706' while loading NULL.
+[2015.06.23-10.03.24:633][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.06.23-10.03.24:633][  0]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.06.23-10.03.24:681][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.03.24:681][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.03.24:681][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.03.24:681][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.03.24:682][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.03.24:682][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.03.24:683][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.03.24:683][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.03.24:683][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.03.24:683][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.03.24:683][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.03.24:683][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.03.24:683][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.03.24:683][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.03.24:683][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.03.24:683][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.03.24:683][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.03.24:683][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.03.24:683][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for Weapon
+[2015.06.23-10.03.24:683][  0]LogSki
