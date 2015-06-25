@@ -1111,4 +1111,591 @@ Localization Resource: (C:/Program Files/Unreal Engine/4.8/Engine/Content/Locali
 [2015.06.25-09.48.42:131][ 85]LogVoice:Warning: Failed to initialize voice interface
 [2015.06.25-09.48.42:132][ 85]LogOnline:Warning: NULL: Can't start an online game for session (Game) that hasn't been created
 [2015.06.25-09.48.42:134][ 85]PIE: Info Play in editor start time for /Game/Main/Maps/UEDPIE_0_TutorialFirstLevel 0.079
-[2015.06.25-09.48.42:149][ 86]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//OnlineAsyncTaskThreadNull///Thread_1edc_0///####STATCAT_Advanced#### old //STATG
+[2015.06.25-09.48.42:149][ 86]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//OnlineAsyncTaskThreadNull///Thread_1edc_0///####STATCAT_Advanced#### old //STATGROUP_Threads//OnlineAsyncTaskThreadNull///Thread_1bc4_0///####STATCAT_Advanced####
+[2015.06.25-09.48.52:669][560]PIE:Warning: Warning Mobility of None : ModelComponent_2508 has to be 'Movable' if you'd like to AddImpulseAtLocation. 
+[2015.06.25-09.48.52:848][567]PIE:Warning: Warning Dynamite_C_2.CollisionComponent has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2015.06.25-09.48.52:848][567]PIE:Warning: Warning Dynamite_C_3.CollisionComponent has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2015.06.25-09.48.52:953][571]PIE:Warning: Warning Mobility of None : ModelComponent_2501 has to be 'Movable' if you'd like to AddImpulseAtLocation. 
+[2015.06.25-09.48.53:062][575]PIE:Warning: Warning Mobility of None : ModelComponent_2508 has to be 'Movable' if you'd like to AddImpulseAtLocation. 
+[2015.06.25-09.48.53:062][575]PIE:Warning: Warning Mobility of None : ModelComponent_2501 has to be 'Movable' if you'd like to AddImpulseAtLocation. 
+[2015.06.25-09.48.53:173][579]PIE:Warning: Warning Mobility of None : ModelComponent_2501 has to be 'Movable' if you'd like to AddImpulseAtLocation. 
+[2015.06.25-09.48.53:262][582]PIE:Warning: Warning GravityHammerImpact_C_7.CollisionComponent has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2015.06.25-09.48.53:320][584]PIE:Warning: Warning Mobility of None : ModelComponent_2501 has to be 'Movable' if you'd like to AddImpulseAtLocation. 
+[2015.06.25-09.48.53:934][606]PIE:Warning: Warning FirstPersonCharacter_C_15.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2015.06.25-09.48.53:961][607]PIE:Warning: Warning FirstPersonCharacter_C_15.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2015.06.25-09.48.54:071][611]PIE:Warning: Warning FirstPersonCharacter_C_15.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2015.06.25-09.48.54:128][613]PIE:Warning: Warning FirstPersonCharacter_C_15.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2015.06.25-09.49.19:086][717]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2015.06.25-09.49.19:086][717]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2015.06.25-09.49.19:125][717]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001F3F3F60
+[2015.06.25-09.49.19:144][718]LogPlayLevel:Display: Destroying online subsystem :Context_24
+[2015.06.25-09.49.19:144][718]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2015.06.25-09.49.20:756][758]LogSavePackage: Save=929.221069ms
+[2015.06.25-09.49.20:756][758]LogSavePackage: Moving '../../../../../../Users/TTV14SVilleK/Documents/GitHub/MayhemPunch/MayhemPunch 4.8/Saved/TutorialFirstLevelDF72E8084AAF0ABF23E957B6FB3EABD9.tmp' to '../../../../../../Users/TTV14SVilleK/Documents/GitHub/MayhemPunch/MayhemPunch 4.8/Content/Main/Maps/TutorialFirstLevel.umap'
+[2015.06.25-09.49.20:854][758]LogFileHelpers: Saving map 'TutorialFirstLevel' took 1.135
+[2015.06.25-09.49.20:862][758]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/BasicShapes/Cylinder_DM" FILE="../../../Engine/Content/BasicShapes/Cylinder_DM.uasset" SILENT=true
+[2015.06.25-09.49.21:172][758]LogSavePackage: Save=295.429626ms
+[2015.06.25-09.49.21:172][758]LogSavePackage: Moving '../../../../../../Users/TTV14SVilleK/Documents/GitHub/MayhemPunch/MayhemPunch 4.8/Saved/Cylinder_DMD51A14C34B35DB1E4B6564B933000147.tmp' to '../../../Engine/Content/BasicShapes/Cylinder_DM.uasset'
+[2015.06.25-09.51.08:746][189]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-09.51.08:746][189]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-09.51.08:746][189]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-09.51.08:746][189]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-09.51.08:746][189]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-09.51.08:746][189]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-09.51.08:746][189]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-09.51.08:746][189]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-09.51.08:746][189]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-09.51.08:746][189]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-09.51.08:746][189]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-09.51.08:746][189]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-09.51.08:746][189]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-09.51.08:746][189]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-09.51.08:746][189]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-09.51.08:746][189]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-09.51.08:746][189]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-09.51.08:746][189]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-09.51.08:746][189]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-09.51.08:746][189]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-09.51.08:746][189]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-09.51.08:747][189]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-09.51.08:747][189]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-09.51.08:747][189]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.11.22:755][259]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.25-10.11.23:799][259]LogSavePackage: Save=996.507629ms
+[2015.06.25-10.11.23:807][259]LogSavePackage: Moving '../../../../../../Users/TTV14SVilleK/Documents/GitHub/MayhemPunch/MayhemPunch 4.8/Saved/TutorialFirstLevel_Auto48DDAD9FC42D7322E0787528C34025FAE.tmp' to '../../../../../../Users/TTV14SVilleK/Documents/GitHub/MayhemPunch/MayhemPunch 4.8/Saved/Autosaves/Game/Main/Maps/TutorialFirstLevel_Auto4.umap'
+[2015.06.25-10.11.23:818][259]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Main/Maps/TutorialFirstLevel' took 1.063
+[2015.06.25-10.11.23:818][259]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.063
+[2015.06.25-10.12.40:875][988]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/TTV14SVilleK/Downloads/Skeleton.FBX)
+[2015.06.25-10.12.41:134][988]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.06.25-10.12.41:134][988]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.06.25-10.12.41:134][988]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.06.25-10.12.41:134][988]LogFbx: ItemName: Model, ItemCount : 7
+[2015.06.25-10.12.41:134][988]LogFbx: ItemName: NodeAttribute, ItemCount : 1
+[2015.06.25-10.12.41:134][988]LogFbx: ItemName: Geometry, ItemCount : 6
+[2015.06.25-10.12.41:134][988]LogFbx: ItemName: Material, ItemCount : 1
+[2015.06.25-10.12.43:632][988]LogFbx: Loading FBX Scene from ../../../../../../Users/TTV14SVilleK/Downloads/Skeleton.FBX
+[2015.06.25-10.12.43:838][988]LogFbx: FBX Scene Loaded Succesfully
+[2015.06.25-10.12.43:876][988]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/01_-_Default'
+[2015.06.25-10.12.43:876][988]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/01_-_Default'
+[2015.06.25-10.12.43:876][988]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/01_-_Default'
+[2015.06.25-10.12.43:876][988]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/StarterContent/Props/01_-_Default.01_-_Default'
+[2015.06.25-10.12.43:920][988]LogMaterial: Missing cached shader map for material 01_-_Default, compiling. 
+[2015.06.25-10.12.44:553][988]LogStaticMesh: Building static mesh Skeleton...
+[2015.06.25-10.12.51:963][988]LogStaticMesh: Built static mesh [7.409454.2s] /Game/StarterContent/Props/Skeleton.Skeleton
+[2015.06.25-10.12.52:003][988]LogStaticMesh:Warning: Skeleton has degenerate tangent bases which will result in incorrect shading. 
+[2015.06.25-10.12.52:221][988]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.06.25-10.12.52:222][988]FBXImport:Warning: Warning Skeleton has degenerate tangent bases which will result in incorrect shading.  
+[2015.06.25-10.12.52:222][988]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2015.06.25-10.12.58:108][320]LogActorFactory: Actor Factory created Skeleton
+[2015.06.25-10.12.58:801][364]LogActorFactory: Actor Factory created Skeleton
+[2015.06.25-10.12.58:825][364]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.12.58:825][364]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.12.58:825][364]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.12.58:825][364]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.12.58:826][364]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.12.58:826][364]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.12.58:826][364]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.12.58:826][364]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.12.58:826][364]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.12.58:826][364]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.12.58:826][364]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.12.58:826][364]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.12.58:826][364]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.12.58:826][364]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.12.58:826][364]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.12.58:826][364]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.12.58:826][364]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.12.58:826][364]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.12.58:826][364]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.12.58:826][364]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.12.58:826][364]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.12.58:826][364]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.12.58:826][364]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.12.58:826][364]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.13.11:816][174]Cmd: DELETE
+[2015.06.25-10.13.11:816][174]Cmd: ACTOR DELETE
+[2015.06.25-10.13.11:822][174]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.06.25-10.13.11:822][174]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.25-10.13.11:850][174]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2015.06.25-10.13.13:243][242]LogActorFactory: Actor Factory created Skeleton
+[2015.06.25-10.13.13:863][283]LogActorFactory: Actor Factory created Skeleton
+[2015.06.25-10.13.13:884][283]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.13.13:884][283]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.13.13:884][283]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.13.13:884][283]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.13.13:884][283]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.13.13:884][283]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.13.13:884][283]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.13.13:884][283]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.13.13:884][283]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.13.13:884][283]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.13.13:884][283]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.13.13:884][283]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.13.13:884][283]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.13.13:884][283]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.13.13:884][283]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.13.13:884][283]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.13.13:884][283]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.13.13:884][283]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.13.13:884][283]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.13.13:884][283]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.13.13:884][283]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.13.13:884][283]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.13.13:884][283]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.13.13:884][283]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.13.30:666][429]Cmd: DELETE
+[2015.06.25-10.13.30:667][429]Cmd: ACTOR DELETE
+[2015.06.25-10.13.30:673][429]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.06.25-10.13.30:673][429]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.25-10.13.30:695][429]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2015.06.25-10.13.33:582][498]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.13.33:582][498]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.13.33:582][498]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.13.33:582][498]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.13.33:582][498]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.13.33:582][498]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.13.33:582][498]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.13.33:582][498]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.13.33:582][498]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.13.33:582][498]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.13.33:582][498]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.13.33:582][498]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.13.33:582][498]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.13.33:582][498]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.13.33:582][498]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.13.33:582][498]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.13.33:582][498]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.13.33:582][498]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.13.33:582][498]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.13.33:582][498]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.13.33:582][498]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.13.33:582][498]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.13.33:582][498]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.13.33:582][498]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.13.35:709][524]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/TTV14SVilleK/Downloads/Skeleton.FBX)
+[2015.06.25-10.13.35:720][524]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.06.25-10.13.35:720][524]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.06.25-10.13.35:720][524]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.06.25-10.13.35:720][524]LogFbx: ItemName: Model, ItemCount : 7
+[2015.06.25-10.13.35:720][524]LogFbx: ItemName: NodeAttribute, ItemCount : 1
+[2015.06.25-10.13.35:720][524]LogFbx: ItemName: Geometry, ItemCount : 6
+[2015.06.25-10.13.35:720][524]LogFbx: ItemName: Material, ItemCount : 1
+[2015.06.25-10.13.44:028][524]LogFbx: Loading FBX Scene from ../../../../../../Users/TTV14SVilleK/Downloads/Skeleton.FBX
+[2015.06.25-10.13.44:160][524]LogFbx: FBX Scene Loaded Succesfully
+[2015.06.25-10.13.44:626][524]LogStaticMesh: Building static mesh Skeleton...
+[2015.06.25-10.13.51:388][524]LogStaticMesh: Built static mesh [6.761647.2s] /Game/StarterContent/Props/Skeleton.Skeleton
+[2015.06.25-10.13.52:410][524]LogStaticMesh:Warning: Skeleton has degenerate tangent bases which will result in incorrect shading. 
+[2015.06.25-10.13.52:515][524]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.06.25-10.13.52:515][524]FBXImport:Warning: Warning Skeleton has degenerate tangent bases which will result in incorrect shading.  
+[2015.06.25-10.13.57:155][731]LogActorFactory: Actor Factory created Skeleton
+[2015.06.25-10.13.58:633][832]LogActorFactory: Actor Factory created Skeleton
+[2015.06.25-10.13.59:289][876]LogActorFactory: Actor Factory created Skeleton
+[2015.06.25-10.15.31:071][408]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Skeleton)
+[2015.06.25-10.15.46:242][346]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.06.25-10.15.46:242][346]LogPlayLevel: [PIE] Compiling TutorialFirstLevel before PIE...
+[2015.06.25-10.15.46:337][346]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.25-10.15.46:363][346]LogPlayLevel: PIE:  Blueprint regeneration took 120 ms (1 blueprints)
+[2015.06.25-10.15.46:363][346]PIE: New page: PIE session: TutorialFirstLevel (Jun 25, 2015, 4:15:46 PM)
+[2015.06.25-10.15.46:364][346]LogPlayLevel: Creating play world package: /Game/Main/Maps/UEDPIE_0_TutorialFirstLevel
+[2015.06.25-10.15.46:535][346]LogPlayLevel: PIE: StaticDuplicateObject took: (0.171683s)
+[2015.06.25-10.15.46:536][346]LogAIModule: Creating AISystem for world TutorialFirstLevel
+[2015.06.25-10.15.46:537][346]LogPlayLevel: PIE: World Init took: (0.001133s)
+[2015.06.25-10.15.46:537][346]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Main/Maps/TutorialFirstLevel.TutorialFirstLevel to /Game/Main/Maps/UEDPIE_0_TutorialFirstLevel.TutorialFirstLevel (0.173020s)
+[2015.06.25-10.15.46:561][346]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.06.25-10.15.46:566][346]LogInit: FAudioDevice initialized.
+[2015.06.25-10.15.46:596][346]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.06.25-10.15.46:614][346]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.06.25-10.15.46:614][346]LogWorld: Bringing World /Game/Main/Maps/UEDPIE_0_TutorialFirstLevel.TutorialFirstLevel up for play (max tick rate 0) at 2015.06.25-13.15.46
+[2015.06.25-10.15.46:614][346]LogActor:Warning: GameSession /Game/Main/Maps/UEDPIE_0_TutorialFirstLevel.TutorialFirstLevel:PersistentLevel.GameSession_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.06.25-10.15.46:614][346]LogActor:Warning: GameNetworkManager /Game/Main/Maps/UEDPIE_0_TutorialFirstLevel.TutorialFirstLevel:PersistentLevel.GameNetworkManager_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.06.25-10.15.46:629][346]LogWorld: Bringing up level for play took: 0.031305
+[2015.06.25-10.15.46:639][346]LogVoice:Warning: Failed to initialize voice interface
+[2015.06.25-10.15.46:640][346]LogOnline:Warning: NULL: Can't start an online game for session (Game) that hasn't been created
+[2015.06.25-10.15.46:643][346]PIE: Info Play in editor start time for /Game/Main/Maps/UEDPIE_0_TutorialFirstLevel 0.455
+[2015.06.25-10.15.46:659][347]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//OnlineAsyncTaskThreadNull///Thread_1a98_0///####STATCAT_Advanced#### old //STATGROUP_Threads//OnlineAsyncTaskThreadNull///Thread_1bc4_0///####STATCAT_Advanced####
+[2015.06.25-10.15.57:261][788]PIE:Warning: Warning Mobility of None : ModelComponent_2501 has to be 'Movable' if you'd like to AddImpulseAtLocation. 
+[2015.06.25-10.15.58:163][823]PIE:Warning: Warning Dynamite_C_9.CollisionComponent has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2015.06.25-10.15.58:163][823]PIE:Warning: Warning Dynamite_C_10.CollisionComponent has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2015.06.25-10.15.58:297][828]PIE:Warning: Warning Dynamite_C_10.CollisionComponent has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2015.06.25-10.15.58:297][828]PIE:Warning: Warning Dynamite_C_11.CollisionComponent has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2015.06.25-10.15.58:437][833]PIE:Warning: Warning Dynamite_C_11.CollisionComponent has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2015.06.25-10.15.58:437][833]PIE:Warning: Warning Dynamite_C_12.CollisionComponent has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2015.06.25-10.15.58:554][837]PIE:Warning: Warning Dynamite_C_12.CollisionComponent has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2015.06.25-10.15.58:554][837]PIE:Warning: Warning Dynamite_C_13.CollisionComponent has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2015.06.25-10.15.58:736][843]PIE:Warning: Warning Dynamite_C_13.CollisionComponent has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2015.06.25-10.15.58:736][843]PIE:Warning: Warning Dynamite_C_14.CollisionComponent has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2015.06.25-10.15.58:921][849]PIE:Warning: Warning Dynamite_C_14.CollisionComponent has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2015.06.25-10.15.58:921][849]PIE:Warning: Warning Dynamite_C_15.CollisionComponent has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2015.06.25-10.15.59:107][855]PIE:Warning: Warning Dynamite_C_15.CollisionComponent has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2015.06.25-10.15.59:107][855]PIE:Warning: Warning Dynamite_C_16.CollisionComponent has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2015.06.25-10.15.59:325][862]PIE:Warning: Warning Dynamite_C_16.CollisionComponent has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2015.06.25-10.15.59:326][862]PIE:Warning: Warning Dynamite_C_17.CollisionComponent has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2015.06.25-10.15.59:551][869]PIE:Warning: Warning Dynamite_C_17.CollisionComponent has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2015.06.25-10.15.59:552][869]PIE:Warning: Warning Dynamite_C_18.CollisionComponent has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2015.06.25-10.15.59:751][875]PIE:Warning: Warning Dynamite_C_18.CollisionComponent has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2015.06.25-10.15.59:751][875]PIE:Warning: Warning Dynamite_C_19.CollisionComponent has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2015.06.25-10.16.00:138][887]PIE:Warning: Warning Mobility of None : ModelComponent_2501 has to be 'Movable' if you'd like to AddImpulseAtLocation. 
+[2015.06.25-10.16.00:457][898]PIE:Warning: Warning Mobility of None : ModelComponent_2498 has to be 'Movable' if you'd like to AddImpulseAtLocation. 
+[2015.06.25-10.16.00:813][910]PIE:Warning: Warning Mobility of None : ModelComponent_2501 has to be 'Movable' if you'd like to AddImpulseAtLocation. 
+[2015.06.25-10.16.02:690][982]PIE:Warning: Warning Mobility of None : ModelComponent_2515 has to be 'Movable' if you'd like to AddImpulseAtLocation. 
+[2015.06.25-10.16.02:922][991]PIE:Warning: Warning GravityHammerImpact_C_23.CollisionComponent has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2015.06.25-10.16.03:070][996]PIE:Warning: Warning FirstPersonCharacter_C_16.GravityHammer has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2015.06.25-10.16.03:250][  2]PIE:Warning: Warning GravityHammerImpact_C_25.CollisionComponent has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2015.06.25-10.16.04:342][ 44]PIE:Warning: Warning FirstPersonCharacter_C_16.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2015.06.25-10.16.04:342][ 44]PIE:Warning: Warning FirstPersonCharacter_C_16.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2015.06.25-10.16.04:401][ 46]PIE:Warning: Warning FirstPersonCharacter_C_16.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2015.06.25-10.16.04:401][ 46]PIE:Warning: Warning FirstPersonCharacter_C_16.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2015.06.25-10.16.04:429][ 47]PIE:Warning: Warning FirstPersonCharacter_C_16.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2015.06.25-10.16.04:898][ 63]PIE:Warning: Warning FirstPersonCharacter_C_16.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2015.06.25-10.16.04:929][ 64]PIE:Warning: Warning FirstPersonCharacter_C_16.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2015.06.25-10.16.04:959][ 65]PIE:Warning: Warning FirstPersonCharacter_C_16.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2015.06.25-10.16.04:989][ 66]PIE:Warning: Warning FirstPersonCharacter_C_16.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2015.06.25-10.16.05:020][ 67]PIE:Warning: Warning FirstPersonCharacter_C_16.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2015.06.25-10.16.05:050][ 68]PIE:Warning: Warning FirstPersonCharacter_C_16.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2015.06.25-10.16.05:080][ 69]PIE:Warning: Warning FirstPersonCharacter_C_16.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2015.06.25-10.16.05:110][ 70]PIE:Warning: Warning FirstPersonCharacter_C_16.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2015.06.25-10.16.05:139][ 71]PIE:Warning: Warning FirstPersonCharacter_C_16.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2015.06.25-10.16.05:169][ 72]PIE:Warning: Warning FirstPersonCharacter_C_16.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2015.06.25-10.16.05:197][ 73]PIE:Warning: Warning FirstPersonCharacter_C_16.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2015.06.25-10.16.05:226][ 74]PIE:Warning: Warning FirstPersonCharacter_C_16.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2015.06.25-10.16.05:255][ 75]PIE:Warning: Warning FirstPersonCharacter_C_16.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2015.06.25-10.16.05:284][ 76]PIE:Warning: Warning FirstPersonCharacter_C_16.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2015.06.25-10.16.05:312][ 77]PIE:Warning: Warning FirstPersonCharacter_C_16.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2015.06.25-10.16.05:342][ 78]PIE:Warning: Warning FirstPersonCharacter_C_16.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2015.06.25-10.16.05:372][ 79]PIE:Warning: Warning FirstPersonCharacter_C_16.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2015.06.25-10.16.05:401][ 80]PIE:Warning: Warning FirstPersonCharacter_C_16.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2015.06.25-10.16.05:428][ 81]PIE:Warning: Warning FirstPersonCharacter_C_16.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2015.06.25-10.16.05:457][ 82]PIE:Warning: Warning FirstPersonCharacter_C_16.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2015.06.25-10.16.05:486][ 83]PIE:Warning: Warning FirstPersonCharacter_C_16.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2015.06.25-10.16.05:515][ 84]PIE:Warning: Warning FirstPersonCharacter_C_16.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2015.06.25-10.16.05:544][ 85]PIE:Warning: Warning FirstPersonCharacter_C_16.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2015.06.25-10.16.05:571][ 86]PIE:Warning: Warning FirstPersonCharacter_C_16.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2015.06.25-10.16.05:600][ 87]PIE:Warning: Warning FirstPersonCharacter_C_16.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2015.06.25-10.16.05:626][ 88]PIE:Warning: Warning FirstPersonCharacter_C_16.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2015.06.25-10.16.09:550][243]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2015.06.25-10.16.09:550][243]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2015.06.25-10.16.09:585][243]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001ECEFF60
+[2015.06.25-10.16.09:607][245]LogPlayLevel:Display: Destroying online subsystem :Context_25
+[2015.06.25-10.16.09:607][245]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2015.06.25-10.16.20:338][934]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush4)
+[2015.06.25-10.16.20:914][967]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Skeleton)
+[2015.06.25-10.16.27:355][320]MapCheck: New page: Map Check
+[2015.06.25-10.16.27:377][320]Cmd: MAP REBUILD
+[2015.06.25-10.16.27:378][320]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.06.25-10.16.35:343][320]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2015.06.25-10.16.35:343][320]MapCheck: New page: TutorialFirstLevel - Jun 25, 2015, 4:16:35 PM
+[2015.06.25-10.16.35:344][320]MapCheck:Error: Error WorldInfo_0 Maps need lighting rebuilt 
+[2015.06.25-10.16.35:481][320]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 137.688ms to complete.
+[2015.06.25-10.16.35:501][320]LogEditorBuildUtils: Build time 0:00:08
+[2015.06.25-10.17.16:877][236]LogActorFactory: Actor Factory created Skeleton
+[2015.06.25-10.17.17:396][274]LogActorFactory: Actor Factory created Skeleton
+[2015.06.25-10.17.17:417][274]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.17.17:417][274]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.17.17:417][274]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.17.17:417][274]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.17.17:417][274]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.17.17:417][274]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.17.17:417][274]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.17.17:417][274]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.17.17:417][274]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.17.17:417][274]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.17.17:417][274]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.17.17:417][274]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.17.17:417][274]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.17.17:417][274]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.17.17:417][274]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.17.17:417][274]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.17.17:418][274]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.17.17:418][274]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.17.17:418][274]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.17.17:418][274]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.17.17:418][274]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.17.17:418][274]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.17.17:418][274]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.17.17:418][274]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_91
+[2015.06.25-10.18.28:744][764]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.06.25-10.18.28:744][764]LogPlayLevel: [PIE] Compiling TutorialFirstLevel before PIE...
+[2015.06.25-10.18.28:840][764]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.25-10.18.28:869][764]LogPlayLevel: PIE:  Blueprint regeneration took 125 ms (1 blueprints)
+[2015.06.25-10.18.28:869][764]PIE: New page: PIE session: TutorialFirstLevel (Jun 25, 2015, 4:18:28 PM)
+[2015.06.25-10.18.28:870][764]LogPlayLevel: Creating play world package: /Game/Main/Maps/UEDPIE_0_TutorialFirstLevel
+[2015.06.25-10.18.29:028][764]LogPlayLevel: PIE: StaticDuplicateObject took: (0.158389s)
+[2015.06.25-10.18.29:029][764]LogAIModule: Creating AISystem for world TutorialFirstLevel
+[2015.06.25-10.18.29:030][764]LogPlayLevel: PIE: World Init took: (0.001101s)
+[2015.06.25-10.18.29:030][764]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Main/Maps/TutorialFirstLevel.TutorialFirstLevel to /Game/Main/Maps/UEDPIE_0_TutorialFirstLevel.TutorialFirstLevel (0.159701s)
+[2015.06.25-10.18.29:054][764]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.06.25-10.18.29:059][764]LogInit: FAudioDevice initialized.
+[2015.06.25-10.18.29:087][764]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.06.25-10.18.29:105][764]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.06.25-10.18.29:105][764]LogWorld: Bringing World /Game/Main/Maps/UEDPIE_0_TutorialFirstLevel.TutorialFirstLevel up for play (max tick rate 0) at 2015.06.25-13.18.29
+[2015.06.25-10.18.29:106][764]LogActor:Warning: GameSession /Game/Main/Maps/UEDPIE_0_TutorialFirstLevel.TutorialFirstLevel:PersistentLevel.GameSession_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.06.25-10.18.29:106][764]LogActor:Warning: GameNetworkManager /Game/Main/Maps/UEDPIE_0_TutorialFirstLevel.TutorialFirstLevel:PersistentLevel.GameNetworkManager_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.06.25-10.18.29:121][764]LogWorld: Bringing up level for play took: 0.031275
+[2015.06.25-10.18.29:131][764]LogVoice:Warning: Failed to initialize voice interface
+[2015.06.25-10.18.29:132][764]LogOnline:Warning: NULL: Can't start an online game for session (Game) that hasn't been created
+[2015.06.25-10.18.29:135][764]PIE: Info Play in editor start time for /Game/Main/Maps/UEDPIE_0_TutorialFirstLevel 0.936
+[2015.06.25-10.18.29:150][765]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//OnlineAsyncTaskThreadNull///Thread_1418_0///####STATCAT_Advanced#### old //STATGROUP_Threads//OnlineAsyncTaskThreadNull///Thread_1bc4_0///####STATCAT_Advanced####
+[2015.06.25-10.18.31:151][843]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2015.06.25-10.18.31:151][843]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2015.06.25-10.18.31:198][843]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001DB72480
+[2015.06.25-10.18.31:240][844]LogPlayLevel:Display: Destroying online subsystem :Context_26
+[2015.06.25-10.18.31:240][844]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2015.06.25-10.18.33:064][894]LogSavePackage: Save=930.009644ms
+[2015.06.25-10.18.33:064][894]LogSavePackage: Moving '../../../../../../Users/TTV14SVilleK/Documents/GitHub/MayhemPunch/MayhemPunch 4.8/Saved/TutorialFirstLevel454461804171D8E3FA58859916DB8C62.tmp' to '../../../../../../Users/TTV14SVilleK/Documents/GitHub/MayhemPunch/MayhemPunch 4.8/Content/Main/Maps/TutorialFirstLevel.umap'
+[2015.06.25-10.18.33:137][894]LogFileHelpers: Saving map 'TutorialFirstLevel' took 1.132
+[2015.06.25-10.18.33:439][894]LogSavePackage: Save=267.000549ms
+[2015.06.25-10.18.33:440][894]LogSavePackage: Moving '../../../../../../Users/TTV14SVilleK/Documents/GitHub/MayhemPunch/MayhemPunch 4.8/Saved/SkeletonF57281074A6CDD11CD281CA42886B888.tmp' to '../../../../../../Users/TTV14SVilleK/Documents/GitHub/MayhemPunch/MayhemPunch 4.8/Content/StarterContent/Props/Skeleton.uasset'
+[2015.06.25-10.18.33:517][894]LogSavePackage: Save=9.003915ms
+[2015.06.25-10.18.33:517][894]LogSavePackage: Moving '../../../../../../Users/TTV14SVilleK/Documents/GitHub/MayhemPunch/MayhemPunch 4.8/Saved/01_-_DefaultBAE5FE924C29FF60EF5915AEAFC77E84.tmp' to '../../../../../../Users/TTV14SVilleK/Documents/GitHub/MayhemPunch/MayhemPunch 4.8/Content/StarterContent/Props/01_-_Default.uasset'
+[2015.06.25-10.18.34:810][980]MapCheck: New page: Map Check
+[2015.06.25-10.18.34:870][980]Cmd: MAP REBUILD ALLVISIBLE
+[2015.06.25-10.18.34:870][980]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.06.25-10.18.42:989][980]LightingResults: New page: Lighting Build - Jun 25, 2015, 4:18:42 PM
+[2015.06.25-10.18.48:035][980]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.06.25-10.18.48:035][980]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.06.25-10.18.48:035][980]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.06.25-10.18.48:035][980]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.06.25-10.18.48:035][980]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.06.25-10.18.49:113][980]LogEditorBuildUtils: Build time 0:00:14
+[2015.06.25-10.18.49:143][980]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer 01_-_Default, compiling. 
+[2015.06.25-10.18.49:146][980]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer 01_-_Default, compiling. 
+[2015.06.25-10.19.12:625][767]Job is a success!
+[2015.06.25-10.19.14:478][768]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.06.25-10.19.14:739][768]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1)
+[2015.06.25-10.19.14:743][768]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT)
+[2015.06.25-10.19.14:746][768]LogTexture:Display: Building textures: LQ_Lightmap_1_8 (DXT1)
+[2015.06.25-10.19.14:750][768]LogTexture:Display: Building textures: HQ_Lightmap1_8 (AutoDXT)
+[2015.06.25-10.19.14:757][768]LogTexture:Display: Building textures: LQ_Lightmap_1_7 (DXT1)
+[2015.06.25-10.19.14:760][768]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT)
+[2015.06.25-10.19.14:768][768]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1)
+[2015.06.25-10.19.14:771][768]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT)
+[2015.06.25-10.19.14:783][768]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
+[2015.06.25-10.19.14:833][768]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2015.06.25-10.19.14:927][768]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2015.06.25-10.19.15:012][768]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2015.06.25-10.19.15:289][768]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2015.06.25-10.19.15:366][768]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2015.06.25-10.19.15:637][768]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2015.06.25-10.19.15:730][768]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2015.06.25-10.19.16:122][768]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2015.06.25-10.19.16:661][768]LogTexture:Display: Building textures: ShadowMapTexture2D_12 (BGRA8)
+[2015.06.25-10.19.17:260][768]LogTexture:Display: Building textures: ShadowMapTexture2D_13 (BGRA8)
+[2015.06.25-10.19.17:492][768]LogTexture:Display: Building textures: ShadowMapTexture2D_14 (BGRA8)
+[2015.06.25-10.19.17:514][768]LogTexture:Display: Building textures: ShadowMapTexture2D_15 (BGRA8)
+[2015.06.25-10.19.17:515][768]LogTexture:Display: Building textures: ShadowMapTexture2D_16 (BGRA8)
+[2015.06.25-10.19.17:553][768]Lightmass on TA11LDML-29: 25.5 sec total, 418 ms importing, 928 ms setup, 3.34 sec photons, 20.7 sec processing, 0 ms extra exporting [2620/2620 mappings]. Threads: 2:25 min total, 1:30 min processing.
+[2015.06.25-10.19.18:081][768]LogStaticLightingSystem: Illumination: 34.7 sec (3.38 sec encoding lightmaps)
+[2015.06.25-10.19.18:081][768]LogStaticLightingSystem: Lightmap texture memory:  6.7 MB (0.1 MB streaming, 6.7 MB non-streaming), 18 textures
+[2015.06.25-10.19.18:081][768]LogStaticLightingSystem: Shadowmap texture memory: 70.2 MB (0.2 MB streaming, 70.0 MB non-streaming), 15 textures
+[2015.06.25-10.19.24:049][769]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.06.25-10.19.24:049][769]MapCheck: New page: TutorialFirstLevel - Jun 25, 2015, 4:19:24 PM
+[2015.06.25-10.19.24:193][769]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 144.251ms to complete.
+[2015.06.25-10.19.36:981][816]LogSavePackage: Save=1321.685303ms
+[2015.06.25-10.19.36:981][816]LogSavePackage: Moving '../../../../../../Users/TTV14SVilleK/Documents/GitHub/MayhemPunch/MayhemPunch 4.8/Saved/TutorialFirstLevel8B4A7BA2420C81E56F33DC90430D34F7.tmp' to '../../../../../../Users/TTV14SVilleK/Documents/GitHub/MayhemPunch/MayhemPunch 4.8/Content/Main/Maps/TutorialFirstLevel.umap'
+[2015.06.25-10.19.37:101][816]LogFileHelpers: Saving map 'TutorialFirstLevel' took 1.542
+[2015.06.25-10.19.38:251][868]Cmd: QUIT_EDITOR
+[2015.06.25-10.19.38:488][868]LogExit: Preparing to exit.
+[2015.06.25-10.19.39:118][868]LogExit: Editor shut down
+[2015.06.25-10.19.39:118][868]LogExit: Transaction tracking system shut down
+[2015.06.25-10.19.39:122][868]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002A84E3E0
+[2015.06.25-10.19.39:122][868]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000223254E0
+[2015.06.25-10.19.39:123][868]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000EBC9940
+[2015.06.25-10.19.39:123][868]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000223274C0
+[2015.06.25-10.19.39:123][868]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000254AA5C0
+[2015.06.25-10.19.39:123][868]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000254AA3E0
+[2015.06.25-10.19.39:287][868]LogExit: Object subsystem successfully closed.
+[2015.06.25-10.19.39:799][868]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (193)
+[2015.06.25-10.19.39:799][868]LogModuleManager: Shutting down and abandoning module DestructibleMeshEditor (192)
+[2015.06.25-10.19.39:799][868]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (191)
+[2015.06.25-10.19.39:799][868]LogModuleManager: Shutting down and abandoning module CrashTracker (190)
+[2015.06.25-10.19.39:799][868]LogModuleManager: Shutting down and abandoning module SceneOutliner (189)
+[2015.06.25-10.19.39:799][868]LogModuleManager: Shutting down and abandoning module SuperSearch (188)
+[2015.06.25-10.19.39:799][868]LogModuleManager: Shutting down and abandoning module WidgetCarousel (187)
+[2015.06.25-10.19.39:799][868]LogModuleManager: Shutting down and abandoning module AddContentDialog (186)
+[2015.06.25-10.19.39:799][868]LogModuleManager: Shutting down and abandoning module EditorWidgets (185)
+[2015.06.25-10.19.39:799][868]LogModuleManager: Shutting down and abandoning module CollectionManager (184)
+[2015.06.25-10.19.39:800][868]LogModuleManager: Shutting down and abandoning module StatsViewer (183)
+[2015.06.25-10.19.39:800][868]LogModuleManager: Shutting down and abandoning module FoliageEdit (182)
+[2015.06.25-10.19.39:800][868]LogModuleManager: Shutting down and abandoning module LandscapeEditor (181)
+[2015.06.25-10.19.39:800][868]LogModuleManager: Shutting down and abandoning module ActorPickerMode (180)
+[2015.06.25-10.19.39:800][868]LogModuleManager: Shutting down and abandoning module GeometryMode (179)
+[2015.06.25-10.19.39:800][868]LogModuleManager: Shutting down and abandoning module TextureAlignMode (178)
+[2015.06.25-10.19.39:800][868]LogModuleManager: Shutting down and abandoning module BspMode (177)
+[2015.06.25-10.19.39:800][868]LogModuleManager: Shutting down and abandoning module PlacementMode (176)
+[2015.06.25-10.19.39:800][868]LogModuleManager: Shutting down and abandoning module AutomationWorker (175)
+[2015.06.25-10.19.39:800][868]LogModuleManager: Shutting down and abandoning module CharacterAI (174)
+[2015.06.25-10.19.39:800][868]LogModuleManager: Shutting down and abandoning module SmartSnapping (173)
+[2015.06.25-10.19.39:800][868]LogModuleManager: Shutting down and abandoning module ViewportSnapping (172)
+[2015.06.25-10.19.39:800][868]LogModuleManager: Shutting down and abandoning module LogVisualizer (171)
+[2015.06.25-10.19.39:800][868]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (170)
+[2015.06.25-10.19.39:800][868]LogModuleManager: Shutting down and abandoning module IntroTutorials (169)
+[2015.06.25-10.19.39:800][868]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (168)
+[2015.06.25-10.19.39:800][868]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (167)
+[2015.06.25-10.19.39:800][868]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (166)
+[2015.06.25-10.19.39:800][868]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (165)
+[2015.06.25-10.19.40:728][868]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (164)
+[2015.06.25-10.19.40:728][868]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (163)
+[2015.06.25-10.19.40:728][868]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (162)
+[2015.06.25-10.19.40:728][868]LogModuleManager: Shutting down and abandoning module MergeActors (161)
+[2015.06.25-10.19.40:728][868]LogModuleManager: Shutting down and abandoning module SizeMap (160)
+[2015.06.25-10.19.40:728][868]LogModuleManager: Shutting down and abandoning module TreeMap (159)
+[2015.06.25-10.19.40:728][868]LogModuleManager: Shutting down and abandoning module ReferenceViewer (158)
+[2015.06.25-10.19.40:728][868]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (157)
+[2015.06.25-10.19.40:728][868]LogModuleManager: Shutting down and abandoning module HardwareTargeting (156)
+[2015.06.25-10.19.40:728][868]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (155)
+[2015.06.25-10.19.40:728][868]LogModuleManager: Shutting down and abandoning module UndoHistory (154)
+[2015.06.25-10.19.40:728][868]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (153)
+[2015.06.25-10.19.40:728][868]LogModuleManager: Shutting down and abandoning module UserFeedback (152)
+[2015.06.25-10.19.40:728][868]LogModuleManager: Shutting down and abandoning module XmlParser (151)
+[2015.06.25-10.19.40:728][868]LogModuleManager: Shutting down and abandoning module Blutility (150)
+[2015.06.25-10.19.40:728][868]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (149)
+[2015.06.25-10.19.40:728][868]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (148)
+[2015.06.25-10.19.40:728][868]LogModuleManager: Shutting down and abandoning module InputBindingEditor (147)
+[2015.06.25-10.19.40:728][868]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (146)
+[2015.06.25-10.19.40:728][868]LogModuleManager: Shutting down and abandoning module SettingsEditor (145)
+[2015.06.25-10.19.40:728][868]LogModuleManager: Shutting down and abandoning module ProjectLauncher (144)
+[2015.06.25-10.19.40:728][868]LogModuleManager: Shutting down and abandoning module SessionFrontend (143)
+[2015.06.25-10.19.40:728][868]LogModuleManager: Shutting down and abandoning module ProfilerClient (142)
+[2015.06.25-10.19.40:728][868]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (141)
+[2015.06.25-10.19.40:728][868]LogModuleManager: Shutting down and abandoning module DeviceManager (140)
+[2015.06.25-10.19.40:728][868]LogModuleManager: Shutting down and abandoning module AutomationController (139)
+[2015.06.25-10.19.40:728][868]LogModuleManager: Shutting down and abandoning module AutomationWindow (138)
+[2015.06.25-10.19.40:729][868]LogModuleManager: Shutting down and abandoning module Layers (137)
+[2015.06.25-10.19.40:729][868]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (136)
+[2015.06.25-10.19.40:729][868]LogModuleManager: Shutting down and abandoning module DetailCustomizations (135)
+[2015.06.25-10.19.40:729][868]LogModuleManager: Shutting down and abandoning module PackagesDialog (134)
+[2015.06.25-10.19.40:729][868]LogModuleManager: Shutting down and abandoning module AssetRegistry (133)
+[2015.06.25-10.19.40:877][868]LogModuleManager: Shutting down and abandoning module Persona (132)
+[2015.06.25-10.19.40:877][868]LogModuleManager: Shutting down and abandoning module Kismet (131)
+[2015.06.25-10.19.40:878][868]LogModuleManager: Shutting down and abandoning module GraphEditor (130)
+[2015.06.25-10.19.40:878][868]LogModuleManager: Shutting down and abandoning module ClassViewer (129)
+[2015.06.25-10.19.40:878][868]LogModuleManager: Shutting down and abandoning module Toolbox (128)
+[2015.06.25-10.19.40:878][868]LogModuleManager: Shutting down and abandoning module ModuleUI (127)
+[2015.06.25-10.19.40:878][868]LogModuleManager: Shutting down and abandoning module MovieSceneTools (126)
+[2015.06.25-10.19.40:878][868]LogModuleManager: Shutting down and abandoning module OutputLog (125)
+[2015.06.25-10.19.40:878][868]LogModuleManager: Shutting down and abandoning module GammaUI (124)
+[2015.06.25-10.19.40:878][868]LogModuleManager: Shutting down and abandoning module Documentation (123)
+[2015.06.25-10.19.40:878][868]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (122)
+[2015.06.25-10.19.40:878][868]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (121)
+[2015.06.25-10.19.40:878][868]LogModuleManager: Shutting down and abandoning module AnalyticsET (120)
+[2015.06.25-10.19.40:878][868]LogModuleManager: Shutting down and abandoning module Analytics (119)
+[2015.06.25-10.19.40:878][868]LogModuleManager: Shutting down and abandoning module AITestSuite (118)
+[2015.06.25-10.19.40:878][868]LogModuleManager: Shutting down and abandoning module GameplayDebugger (117)
+[2015.06.25-10.19.40:878][868]LogModuleManager: Shutting down and abandoning module AIModule (116)
+[2015.06.25-10.19.40:878][868]LogModuleManager: Shutting down and abandoning module ProfilerService (115)
+[2015.06.25-10.19.41:091][868]LogModuleManager: Shutting down and abandoning module TaskGraph (114)
+[2015.06.25-10.19.41:091][868]LogModuleManager: Shutting down and abandoning module SlateRemote (113)
+[2015.06.25-10.19.41:091][868]LogModuleManager: Shutting down and abandoning module SteamVRController (112)
+[2015.06.25-10.19.41:091][868]LogModuleManager: Shutting down and abandoning module SteamVR (111)
+[2015.06.25-10.19.41:091][868]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (110)
+[2015.06.25-10.19.41:091][868]LogModuleManager: Shutting down and abandoning module OculusRift (109)
+[2015.06.25-10.19.41:091][868]LogModuleManager: Shutting down and abandoning module LeapMotionController (108)
+[2015.06.25-10.19.41:098][868]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (107)
+[2015.06.25-10.19.41:098][868]LogModuleManager: Shutting down and abandoning module CableComponent (106)
+[2015.06.25-10.19.41:098][868]LogModuleManager: Shutting down and abandoning module MessagingDebugger (105)
+[2015.06.25-10.19.41:098][868]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (104)
+[2015.06.25-10.19.41:098][868]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (103)
+[2015.06.25-10.19.41:098][868]LogModuleManager: Shutting down and abandoning module PluginBrowser (102)
+[2015.06.25-10.19.41:098][868]LogModuleManager: Shutting down and abandoning module EpicSurvey (101)
+[2015.06.25-10.19.41:098][868]LogModuleManager: Shutting down and abandoning module DesktopPlatform (100)
+[2015.06.25-10.19.41:098][868]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (99)
+[2015.06.25-10.19.41:098][868]LogModuleManager: Shutting down and abandoning module UObjectPlugin (98)
+[2015.06.25-10.19.41:098][868]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (97)
+[2015.06.25-10.19.41:098][868]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (96)
+[2015.06.25-10.19.41:098][868]LogModuleManager: Shutting down and abandoning module SourceControl (95)
+[2015.06.25-10.19.41:098][868]LogModuleManager: Shutting down and abandoning module GitSourceControl (94)
+[2015.06.25-10.19.41:098][868]LogModuleManager: Shutting down and abandoning module BlankPlugin (93)
+[2015.06.25-10.19.41:098][868]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (92)
+[2015.06.25-10.19.41:098][868]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (91)
+[2015.06.25-10.19.41:098][868]LogModuleManager: Shutting down and abandoning module MeshPaint (90)
+[2015.06.25-10.19.41:098][868]LogModuleManager: Shutting down and abandoning module SlateReflector (89)
+[2015.06.25-10.19.41:098][868]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (88)
+[2015.06.25-10.19.41:098][868]LogModuleManager: Shutting down and abandoning module HotReload (87)
+[2015.06.25-10.19.41:098][868]LogModuleManager: Shutting down and abandoning module MainFrame (86)
+[2015.06.25-10.19.41:098][868]LogModuleManager: Shutting down and abandoning module LevelEditor (85)
+[2015.06.25-10.19.41:099][868]LogModuleManager: Shutting down and abandoning module ContentBrowser (84)
+[2015.06.25-10.19.41:100][868]LogModuleManager: Shutting down and abandoning module Paper2DEditor (83)
+[2015.06.25-10.19.41:100][868]LogModuleManager: Shutting down and abandoning module UdpMessaging (82)
+[2015.06.25-10.19.41:200][868]LogModuleManager: Shutting down and abandoning module Paper2D (81)
+[2015.06.25-10.19.41:200][868]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (80)
+[2015.06.25-10.19.41:203][868]LogModuleManager: Shutting down and abandoning module Media (79)
+[2015.06.25-10.19.41:203][868]LogModuleManager: Shutting down and abandoning module WmfMedia (78)
+[2015.06.25-10.19.41:205][868]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (77)
+[2015.06.25-10.19.41:205][868]LogModuleManager: Shutting down and abandoning module PropertyEditor (76)
+[2015.06.25-10.19.41:205][868]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (75)
+[2015.06.25-10.19.41:205][868]LogModuleManager: Shutting down and abandoning module FunctionalTesting (74)
+[2015.06.25-10.19.41:205][868]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (73)
+[2015.06.25-10.19.41:205][868]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (72)
+[2015.06.25-10.19.41:205][868]LogModuleManager: Shutting down and abandoning module MessageLog (71)
+[2015.06.25-10.19.41:205][868]LogModuleManager: Shutting down and abandoning module Sequencer (70)
+[2015.06.25-10.19.41:205][868]LogModuleManager: Shutting down and abandoning module AssetTools (69)
+[2015.06.25-10.19.41:205][868]LogModuleManager: Shutting down and abandoning module UMGEditor (68)
+[2015.06.25-10.19.41:205][868]LogModuleManager: Shutting down and abandoning module UMG (67)
+[2015.06.25-10.19.41:205][868]LogModuleManager: Shutting down and abandoning module Slate (66)
+[2015.06.25-10.19.41:205][868]LogModuleManager: Shutting down and abandoning module EditorStyle (65)
+[2015.06.25-10.19.41:207][868]LogModuleManager: Shutting down and abandoning module SessionServices (64)
+[2015.06.25-10.19.41:207][868]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (63)
+[2015.06.25-10.19.41:207][868]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (62)
+[2015.06.25-10.19.41:207][868]LogModuleManager: Shutting down and abandoning module XAudio2 (61)
+[2015.06.25-10.19.41:207][868]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2015.06.25-10.19.41:207][868]LogModuleManager: Shutting down and abandoning module Core (59)
+[2015.06.25-10.19.41:207][868]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2015.06.25-10.19.41:207][868]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2015.06.25-10.19.41:207][868]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2015.06.25-10.19.41:207][868]LogModuleManager: Shutting down and abandoning module DerivedDataCache (55)
+[2015.06.25-10.19.41:217][868]LogDerivedDataCache: Shutdown
+[2015.06.25-10.19.41:217][868]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (54)
+[2015.06.25-10.19.41:217][868]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (53)
+[2015.06.25-10.19.41:217][868]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (52)
+[2015.06.25-10.19.41:217][868]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (51)
+[2015.06.25-10.19.41:217][868]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (50)
+[2015.06.25-10.19.41:217][868]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (49)
+[2015.06.25-10.19.41:217][868]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (48)
+[2015.06.25-10.19.41:217][868]LogModuleManager: Shutting down and abandoning module ImageWrapper (47)
+[2015.06.25-10.19.41:217][868]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (46)
+[2015.06.25-10.19.41:217][868]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (45)
+[2015.06.25-10.19.41:217][868]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (44)
+[2015.06.25-10.19.41:217][868]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (43)
+[2015.06.25-10.19.41:217][868]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (42)
+[2015.06.25-10.19.41:217][868]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (41)
+[2015.06.25-10.19.41:217][868]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (40)
+[2015.06.25-10.19.41:217][868]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (39)
+[2015.06.25-10.19.41:217][868]LogModuleManager: Shutting down and abandoning module Messaging (38)
+[2015.06.25-10.19.41:217][868]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (37)
+[2015.06.25-10.19.41:217][868]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (36)
+[2015.06.25-10.19.41:217][868]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (35)
+[2015.06.25-10.19.41:217][868]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2015.06.25-10.19.41:217][868]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2015.06.25-10.19.41:217][868]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2015.06.25-10.19.41:217][868]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2015.06.25-10.19.41:217][868]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2015.06.25-10.19.41:217][868]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2015.06.25-10.19.41:217][868]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2015.06.25-10.19.41:217][868]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2015.06.25-10.19.41:217][868]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2015.06.25-10.19.41:217][868]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2015.06.25-10.19.41:217][868]LogModuleManager: Shutting down and abandoning module DesktopTargetPlatform (24)
+[2015.06.25-10.19.41:217][868]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2015.06.25-10.19.41:217][868]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2015.06.25-10.19.41:217][868]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2015.06.25-10.19.41:217][868]LogModuleManager: Shutting down and abandoning module Voice (19)
+[2015.06.25-10.19.41:217][868]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.06.25-10.19.41:217][868]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2015.06.25-10.19.41:217][868]LogOnline:Display: Unloading online subsystem: Null
+[2015.06.25-10.19.41:217][868]LogModuleManager: Shutting down and abandoning module HTTP (15)
+[2015.06.25-10.19.41:218][868]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.06.25-10.19.41:218][868]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.06.25-10.19.41:218][868]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.06.25-10.19.41:218][868]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.06.25-10.19.41:218][868]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.06.25-10.19.41:219][868]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.06.25-10.19.41:219][868]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.06.25-10.19.41:219][868]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.06.25-10.19.41:219][868]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.06.25-10.19.41:219][868]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.06.25-10.19.41:219][868]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.06.25-10.19.41:219][868]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.06.25-10.19.41:219][868]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.06.25-10.19.41:219][868]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.06.25-10.19.41:220][868]LogExit: Exiting.
+[2015.06.25-10.19.41:240][868]Log file closed, 06/25/15 13:19:41
