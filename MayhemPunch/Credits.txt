@@ -5,3 +5,13 @@ Enemy sounds - Robot voices - Ionicsmusic | License: Attribution 3.0 https://www
 Level sound effects - Various artists | License: Public Domain
 
 Textures - Various artists | License: Public Domain
+
+
+
+
+Software used:
+	Unreal Engine 4.8
+	Maya 2015
+	3DSMax 2015
+	Photoshop CC 2014
+	
