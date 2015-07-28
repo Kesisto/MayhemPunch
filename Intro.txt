@@ -1,0 +1,3 @@
+MayhemPunch is futuristic gladiator arena game.
+Goal is to destroy or incapacitate enemy robots by pushing or tricking them into traps.
+Melee weapons do not make any damage, but every one of them has different knockback.
