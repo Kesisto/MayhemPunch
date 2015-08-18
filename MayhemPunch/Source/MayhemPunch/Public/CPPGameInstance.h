@@ -2,6 +2,7 @@
 
 #pragma once
 
+#include "HighscoreManager.h"
 #include "Blueprint/UserWidget.h"
 #include "Engine/GameInstance.h"
 #include "CPPGameInstance.generated.h"
