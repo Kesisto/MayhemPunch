@@ -44,16 +44,16 @@ public:
 	//-----------//
 
 	/*Load*/
-	UFUNCTION(BlueprintCallable, Category = "Score")
+	UFUNCTION(BlueprintCallable, Category = "Kakkapylly Multimedia Library")
 		void Load();
 
 	/*Save*/
-	UFUNCTION(BlueprintCallable, Category = "Score")
+	UFUNCTION(BlueprintCallable, Category = "Kakkapylly Multimedia Library")
 		void Save();
 
 	/*Set Mouse Position*/
-	UFUNCTION(BlueprintCallable, Category = "kakkapylly")
-		void SetMousePosition(ULocalPlayer* player, int32 X, int32 Y);
+	UFUNCTION(BlueprintCallable, Category = "Kakkapylly Multimedia Library")
+		void HideShowMouse(APlayerController* PlayerController);
 
 	//-----------//
 	// VARIABLES //
@@ -219,6 +219,14 @@ public:
 	/*Enable LAN*/
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Misc.")
 		bool EnableLAN;
+
+	/*Mouse Position X*/
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Kakkapylly Multimedia Library")
+		int32 MousePositionX = 0;
+
+	/*Mouse Position Y*/
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Kakkapylly Multimedia Library")
+		int32 MousePositionY = 0;
 
 	/*Maximum Number of Players*/
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Misc.")

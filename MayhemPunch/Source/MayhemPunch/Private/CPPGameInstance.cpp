@@ -11,7 +11,12 @@ void UCPPGameInstance::Load() {
 
 void UCPPGameInstance::Save() {}
 
-void UCPPGameInstance::SetMousePosition(ULocalPlayer* player, int32 X, int32 Y) {
+void UCPPGameInstance::HideShowMouse(APlayerController* PlayerController) {
+	ULocalPlayer* player = Cast<ULocalPlayer>(PlayerController->GetNetOwningPlayer());
 	FViewport* Viewport = player->ViewportClient->Viewport;
-	Viewport->SetMouse(X, Y);
+	int32 tempMousePositionX = Viewport->GetMouseX();
+	int32 tempMousePositionY = Viewport->GetMouseY();
+	Viewport->SetMouse(MousePositionX, MousePositionY);
+	MousePositionX = tempMousePositionX;
+	MousePositionY = tempMousePositionY;
 }
