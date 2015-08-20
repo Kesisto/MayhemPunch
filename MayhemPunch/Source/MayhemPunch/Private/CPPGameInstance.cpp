@@ -10,3 +10,8 @@ void UCPPGameInstance::Load() {
 }
 
 void UCPPGameInstance::Save() {}
+
+void UCPPGameInstance::SetMousePosition(ULocalPlayer* player, int32 X, int32 Y) {
+	FViewport* Viewport = player->ViewportClient->Viewport;
+	Viewport->SetMouse(X, Y);
+}

@@ -51,6 +51,10 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Score")
 		void Save();
 
+	/*Set Mouse Position*/
+	UFUNCTION(BlueprintCallable, Category = "kakkapylly")
+		void SetMousePosition(ULocalPlayer* player, int32 X, int32 Y);
+
 	//-----------//
 	// VARIABLES //
 	//-----------//
