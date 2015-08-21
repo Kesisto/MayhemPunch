@@ -44,16 +44,18 @@ public:
 	//-----------//
 
 	/*Load*/
-	UFUNCTION(BlueprintCallable, Category = "Kakkapylly Multimedia Library")
+	UFUNCTION(BlueprintCallable, Category = "Banaanipojat")
 		void Load();
 
 	/*Save*/
-	UFUNCTION(BlueprintCallable, Category = "Kakkapylly Multimedia Library")
+	UFUNCTION(BlueprintCallable, Category = "Banaanipojat")
 		void Save();
 
 	/*Set Mouse Position*/
-	UFUNCTION(BlueprintCallable, Category = "Kakkapylly Multimedia Library")
-		void HideShowMouse(APlayerController* PlayerController);
+	UFUNCTION(BlueprintCallable, Category = "Banaanipojat")
+		void HideMouse(bool Hide, APlayerController* PlayerController);
+
+
 
 	//-----------//
 	// VARIABLES //
@@ -208,6 +210,21 @@ public:
 		float Music;
 
 
+	//--------------//
+	// Banaanipojat //
+	//--------------//
+
+	/*Mouse Position X*/
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Banaanipojat")
+		int32 MousePositionX = 0;
+
+	/*Mouse Position Y*/
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Banaanipojat")
+		int32 MousePositionY = 0;
+
+	bool Change = true;
+
+
 	//-------//
 	// Misc. //
 	//-------//
@@ -219,14 +236,6 @@ public:
 	/*Enable LAN*/
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Misc.")
 		bool EnableLAN;
-
-	/*Mouse Position X*/
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Kakkapylly Multimedia Library")
-		int32 MousePositionX = 0;
-
-	/*Mouse Position Y*/
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Kakkapylly Multimedia Library")
-		int32 MousePositionY = 0;
 
 	/*Maximum Number of Players*/
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Misc.")
