@@ -22,7 +22,11 @@ void UCPPGameInstance::HideMouse(bool Hide, APlayerController* PlayerController)
 		Change = true;
 	}
 	else if (Change) {
+		PlayerController->SetInputMode(FInputModeUIOnly());
 		Viewport->SetMouse(MousePositionX, MousePositionY);
+		PlayerController->bShowMouseCursor = true;
+		PlayerController->bEnableClickEvents = true;
+		PlayerController->bEnableMouseOverEvents = true;
 		Change = false;
 	}
 }
