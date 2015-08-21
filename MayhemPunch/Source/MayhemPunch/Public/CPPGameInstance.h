@@ -53,7 +53,9 @@ public:
 
 	/*Set Mouse Position*/
 	UFUNCTION(BlueprintCallable, Category = "Banaanipojat")
-		void HideShowMouse(bool Hide, APlayerController* PlayerController);
+		void HideMouse(bool Hide, APlayerController* PlayerController);
+
+
 
 	//-----------//
 	// VARIABLES //
@@ -219,6 +221,8 @@ public:
 	/*Mouse Position Y*/
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Banaanipojat")
 		int32 MousePositionY = 0;
+
+	bool Change = true;
 
 
 	//-------//
