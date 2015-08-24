@@ -15,7 +15,7 @@ void HighscoreManager::checkHighscore(Highscore hs) {
 }
 
 void HighscoreManager::loadHighscore() {
-	std::ifstream input ("Data/Highscore.ass", std::ios::in | std::ios::binary);
+	std::ifstream input ("Highscore.dat", std::ios::in);
 	if (input.is_open()) {
 		while (input.eof()) {
 
@@ -25,7 +25,7 @@ void HighscoreManager::loadHighscore() {
 }
 
 void HighscoreManager::saveHighscore() {
-	std::ofstream output ("Data/Highscore.ass", std::ios::out | std::ios::trunc | std::ios::binary);
+	std::ofstream output ("Highscore.dat", std::ios::out | std::ios::trunc);
 	if (output.is_open()) {
 		output.write((char *)(_highscore[0]), sizeof(Highscore));
 		//for (auto it = _highscore.begin(); it != _highscore.end(); it++) {
