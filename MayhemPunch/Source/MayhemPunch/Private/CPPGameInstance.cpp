@@ -4,10 +4,7 @@
 
 
 
-void UCPPGameInstance::Load() {
-	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, "Load");
-	HighscoreManager hsm;
-}
+void UCPPGameInstance::Load() {}
 
 void UCPPGameInstance::Save() {}
 

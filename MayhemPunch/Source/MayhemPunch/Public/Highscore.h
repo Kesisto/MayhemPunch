@@ -7,8 +7,6 @@
 class MAYHEMPUNCH_API Highscore
 {
 public:
-	operator char*();
-
 	Highscore(std::string, std::int32_t);
 	~Highscore();
 	
